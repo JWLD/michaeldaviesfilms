@@ -1,0 +1,435 @@
+/*** SIDE NAV ***/
+
+#logo {
+	position: fixed;
+	top: 0;
+	right: 0;
+
+	height: 150px;
+	width: 150px;
+
+	box-sizing: border-box;
+	margin: 20px;
+
+	background-image: url('../pics/logos/mdflogo.png');
+	background-size: contain;
+}
+
+#navButtonWrap {
+	flex-direction: column;
+	align-items: flex-end;
+
+	position: fixed;
+	top: 190px;
+	right: 0;
+}
+
+.navThing {
+	margin-bottom: 7px;
+}
+
+.navThing:hover .stick {
+	width: 28px;
+}
+
+.navButton {
+	width: 140px;
+
+	padding: 5px 0 0 5px;
+
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	font: 27px Simplifica;
+}
+
+.stick {
+	width: 23px;
+	height: 2px;
+
+	background-color: rgba(0, 0, 0, 0.5);
+
+	transition: 0.1s;
+}
+
+
+
+
+
+/*** SECTION GLOBALS ***/
+
+.section {
+	justify-content: flex-start;
+
+	width: 100vw;
+
+	background-color: #222;
+}
+
+.content {
+	flex-direction: column;
+
+	width: calc(100% - 190px);
+
+	padding: 7vmin 15px;
+
+	background-color: #262626;
+}
+
+.divider {
+	justify-content: flex-start;
+
+	height: 100px;
+	width: 100vw;
+
+	padding-left: 25px;
+	/*border-left: 10px solid #f66;*/
+
+	color: white;
+	background-color: #1a1a1a;
+
+	font: 60px Dense;
+}
+
+
+
+
+
+/*** LANDING ***/
+
+.section.landing {
+	height: 100vh;
+
+	background-image: url('../pics/bgs/lafs.png');
+	background-size: cover;
+}
+
+
+
+
+
+/*** ABOUT ***/
+
+.content.about {
+	flex-direction: row;
+	justify-content: center;
+}
+
+#about_portrait {
+	min-height: 26vw;
+	min-width: 26vw;
+	border-radius: 13vw;
+
+	margin-right: 10px;
+
+	color: white;
+	background-color: #222;
+
+	font: 30px Dense;
+
+	background-image: url('../pics/portrait.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#about_text {
+	flex-direction: column;
+	align-items: flex-start;
+
+	max-width: 700px;
+
+	margin-left: 10px;
+	padding: 20px;
+
+	color: white;
+	background-color: #222;
+
+	font: 20px Simplifica;
+	letter-spacing: 0.5px;
+}
+
+#about_text p {
+	margin: 6px 0;
+}
+
+.p_top {
+	margin: 0 0 6px 0 !important;
+}
+
+.p_bottom {
+	margin: 6px 0 0 0 !important;
+}
+
+
+
+
+
+/*** SCRIPTS ***/
+
+.script_wrap {
+	max-width: 95%;
+
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #333;
+
+	color: white;
+	font: 20px Simplifica;
+	letter-spacing: 0.5px;
+}
+
+.script_wrap.top {
+	margin-top: 0;
+}
+
+.script_wrap.bottom {
+	padding-bottom: 10px;
+	border-bottom: none;
+}
+
+.script_info_wrap {
+	flex-direction: column;
+
+	min-width: 310px;
+
+	padding-right: 20px;
+	border-right: 10px solid #f66;
+	margin-right: 20px;
+}
+
+.script_title {
+	font: 40px Dense;
+	white-space: nowrap;
+}
+
+.script_text {
+	width: 710px;
+
+	margin-left: 10px;
+}
+
+
+
+
+
+/*** DRAMA ***/
+
+.filmWrap {
+	flex-direction: column;
+	justify-content: space-between;
+
+	color: white;
+	font: 20px Simplifica;
+	letter-spacing: 0.5px;
+}
+
+.videoAndInfoWrap {
+	width: 100%;
+
+	/*border-right: 5px solid #f66;*/
+}
+
+.videoAndInfoWrap.rev {
+	flex-direction: row-reverse;
+
+	/*border-right: 0;*/
+	/*border-left: 5px solid #f66;*/
+}
+
+.spacer {
+	height: 100%;
+	width: 5vw;
+	min-width: 10px;
+}
+
+.videoWrap {
+	position: relative;
+
+	width: 400px;
+	height: 225px;
+	overflow: hidden;
+
+	background-color: #222;
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.videoWrap:hover {
+	cursor: pointer;
+}
+
+.videoWrap:hover .vidOverlay {
+	opacity: 1;
+}
+
+.playButton {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	height: 40px;
+	width: 60px;
+
+	border-radius: 5px;
+	margin: 10px;
+
+	color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.vidOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	justify-content: flex-start;
+	align-items: flex-end;
+
+	height: 100%;
+	width: 100%;
+
+	padding: 10px 15px;
+
+	background-color: rgba(0, 0, 0, 0.3);
+
+	opacity: 0;
+}
+
+.vidInfo {
+	font: 20px Simplifica;
+	color: white;
+}
+
+.videoBox {
+	position: absolute;
+	top: 0;
+	left: -400px;
+	z-index: 10;
+
+	height: 100%;
+	width: 100%;
+
+	background-color: black;
+
+	transition: 0.5s;
+}
+
+/* INFO */
+
+.infoWrap {
+	flex-direction: column;
+	justify-content: space-between;
+
+	height: 225px;
+	width: 400px;
+
+	border-left: 5px solid #f66;
+
+	padding: 0 10px;
+}
+
+.filmTitle {
+	font: 40px Dense;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.filmSubtitle {
+	margin-top: 5px;
+}
+
+.filmBlurb {
+	text-align: center;
+
+	width: 85%;
+}
+
+.infoButton {
+	width: 100px;
+
+	padding: 10px;
+	margin: 0 7px;
+
+	color: white;
+	background-color: #1a1a1a;
+
+	font: 20px Simplifica;
+	letter-spacing: 0.5px;
+}
+
+.infoButton:hover {
+	background-color: #333;
+}
+
+/* EXTRA */
+
+.extraPanel {
+	position: relative;
+	align-items: flex-start;
+
+	width: 100%;
+	height: 0px;
+	overflow: scroll;
+
+	margin: 30px 0;
+	border-top: 1px solid #333;
+
+	background-color: #222;
+
+	transition: 0.5s;
+}
+
+.extraPanel.bottom {
+	margin: 30px 0 0 0;
+}
+
+.extra {
+	flex-direction: column;
+
+	min-height: 225px;
+	width: 100%;
+	max-width: 700px;
+
+	padding: 10px 0;
+}
+
+.extra div {
+	height: 30px;
+	width: 100%;
+}
+
+.extraPanel p {
+	margin: 0 10px;
+
+	text-align: center;
+}
+
+.extra.awards p:nth-child(1) {
+	width: 50%;
+}
+
+.extra.awards p:nth-child(2) {
+	width: 50%;
+}
+
+.extra.awards div:nth-child(even) {
+	/*background-color: #2a2a2a;*/
+}
+
+.awardHead {
+	margin: 10px 0 5px 0;
+
+	padding: 3px 10px;
+
+	font: 30px Dense;
+	color: white;
+}
+
+.episodeList {
+	flex-direction: column;
+	height: 100% !important;
+	width: 100%;
+}
