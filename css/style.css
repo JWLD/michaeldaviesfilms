@@ -1,6 +1,6 @@
 /*** SIDE NAV ***/
 
-#logo {
+.logo {
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -13,6 +13,21 @@
 
 	background-image: url('../pics/logos/mdflogo.png');
 	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.logo.mobile {
+	display: none;
+	position: static;
+
+	height: 50vmin;
+	width: 50vmin;
+	margin: 10px;
+}
+
+.logo.mobile:hover {
+	cursor: default;
 }
 
 #navButtonWrap {
@@ -99,6 +114,7 @@
 
 .section.landing {
 	height: 100vh;
+	justify-content: center;
 
 	background-image: url('../pics/bgs/lafs.png');
 	background-size: cover;
@@ -115,12 +131,17 @@
 	justify-content: center;
 }
 
+#portraitAndImdbWrap {
+	flex-direction: column;
+}
+
 #about_portrait {
-	min-height: 26vw;
-	min-width: 26vw;
+	min-height: 20vw;
+	min-width: 20vw;
 	border-radius: 100vw;
 
 	margin-right: 10px;
+	margin-bottom: 20px;
 
 	color: white;
 	background-color: #222;
@@ -161,6 +182,27 @@
 	margin: 6px 0 0 0 !important;
 }
 
+#imdbLinkWrap {
+	flex-direction: row;
+}
+
+.imdbLink {
+	width: 90px;
+	padding: 8px 0 6px 0;
+	margin: 0 5px;
+	border-radius: 3px;
+	
+	background-color: #1a1a1a;
+	color: white;
+	
+	font: 25px Dense;
+	letter-spacing: 1px;
+}
+
+.imdbLink:hover {
+	background-color: #333;
+}
+
 
 
 
@@ -194,7 +236,7 @@
 	min-width: 310px;
 
 	padding-right: 20px;
-	border-right: 10px solid #f66;
+	border-right: 5px solid #f66;
 	margin-right: 20px;
 }
 
@@ -404,16 +446,8 @@
 	text-align: center;
 }
 
-.extra.awards p:nth-child(1) {
+.extra.awards p {
 	width: 50%;
-}
-
-.extra.awards p:nth-child(2) {
-	width: 50%;
-}
-
-.extra.awards div:nth-child(even) {
-	/*background-color: #2a2a2a;*/
 }
 
 .awardHead {

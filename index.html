@@ -35,9 +35,9 @@
 		<button class="menuHeaderButton mobile contact" onclick="jumpTo('documentary', true)">DOCUMETARY</button>
 		<a class="menuHeaderButton mobile work" href="mailto:info@michaeldaviesfilms.com">CONTACT</a>
 	</div>
-	
+		
 	<!-- desktop nav -->
-	<button id="logo" onclick="jumpTo('landing', false)"></button>
+	<button class="logo desktop" onclick="jumpTo('landing', false)"></button>
 
 	<div id="navButtonWrap">
 		<div class="navThing">
@@ -67,14 +67,22 @@
 	</div>
 
 	<!-- landing -->
-	<div class="section landing"></div>
+	<div class="section landing">
+		<div class="logo mobile"></div>
+	</div>
 
 	<!-- about -->
 	<div class="divider about">ABOUT</div>
 
 	<div class="section about">
 		<div class="content about">
-			<div id="about_portrait"></div>
+			<div id="portraitAndImdbWrap">
+				<div id="about_portrait"></div>
+				<div id="imdbLinkWrap">
+					<a class="imdbLink" target="_blank" href="http://www.imdb.com/name/nm1844080/">IMDb</a>
+					<a class="imdbLink" target="_blank" href="https://pro-labs.imdb.com/name/nm1844080">IMDb Pro</a>
+				</div>
+			</div>
 			<div id="about_text">
 				<p class="p_top">MICHAEL DAVIES is a BAFTA and RTS award-winning writer and director. Following a BA in Drama from Manchester University and an MA in Film and Television from Bristol University, he began his career at BBC Television Features, working on a wide range of projects, including his critically-acclaimed documentary series <i>Barnardo’s Children</i>.</p>
 				<p>Michael has made observational documentaries, personal testimony based documentaries, drama-documentaries, dramatised adventure, comedy and factual entertainment programmes as well as writing and directing drama.</p>
