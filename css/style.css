@@ -71,7 +71,7 @@
 
 	width: calc(100% - 190px);
 
-	padding: 7vmin 15px;
+	padding: 7vmin 20px;
 
 	background-color: #262626;
 }
@@ -118,7 +118,7 @@
 #about_portrait {
 	min-height: 26vw;
 	min-width: 26vw;
-	border-radius: 13vw;
+	border-radius: 100vw;
 
 	margin-right: 10px;
 
@@ -139,7 +139,7 @@
 
 	max-width: 700px;
 
-	margin-left: 10px;
+	margin: 0 0 0 10px;
 	padding: 20px;
 
 	color: white;
@@ -184,8 +184,8 @@
 }
 
 .script_wrap.bottom {
-	padding-bottom: 10px;
 	border-bottom: none;
+	padding-bottom: 0;
 }
 
 .script_info_wrap {
@@ -226,15 +226,10 @@
 
 .videoAndInfoWrap {
 	width: 100%;
-
-	/*border-right: 5px solid #f66;*/
 }
 
 .videoAndInfoWrap.rev {
 	flex-direction: row-reverse;
-
-	/*border-right: 0;*/
-	/*border-left: 5px solid #f66;*/
 }
 
 .spacer {
@@ -247,6 +242,7 @@
 	position: relative;
 
 	width: 400px;
+	max-width: 90vw;
 	height: 225px;
 	overflow: hidden;
 
@@ -307,7 +303,7 @@
 	position: absolute;
 	top: 0;
 	left: -400px;
-	z-index: 10;
+	z-index: 1;
 
 	height: 100%;
 	width: 100%;
@@ -325,6 +321,7 @@
 
 	height: 225px;
 	width: 400px;
+	max-width: 90vw;
 
 	border-left: 5px solid #f66;
 
@@ -432,4 +429,81 @@
 	flex-direction: column;
 	height: 100% !important;
 	width: 100%;
+}
+
+
+
+
+
+/*** MOBILE MENU ***/
+
+#mobileMenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	pointer-events: none;
+
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	
+	background-color: #222;
+		
+	opacity: 0;
+	transition: 0.2s;
+}
+
+#menuButton {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 11;
+	
+	flex-direction: column;
+	
+	margin: 10px;
+	padding: 10px;
+	
+	background-color: #1a1a1a;
+}
+
+#menuButton:hover .menuIconBar {
+	background-color: #f66;
+}
+
+.menuIconBar {
+	width: 35px;
+	height: 5px;
+	margin-bottom: 8px;
+	background-color: white;
+	transition: 0.5s transform, opacity;
+}
+
+.menuIconBar.three {
+	margin-bottom: 0;
+}
+
+.menuIconBar.one.change {
+	transform: rotate(-45deg) translate(-9px, 9px);
+}
+
+.menuIconBar.two.change {
+	opacity: 0;
+}
+
+.menuIconBar.three.change {
+	transform: rotate(45deg) translate(-9px, -9px);
+}
+
+.menuHeaderButton {
+	margin: 10px 0;
+	
+	color: white;
+	font: calc(5vw + 20px) Dense;
+}
+
+.menuHeaderButton:hover {
+	color: #f66;
 }

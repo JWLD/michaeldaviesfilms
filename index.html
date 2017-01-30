@@ -7,8 +7,9 @@
 	<link rel="icon" type="image/png" href="pics/favicons/favicon-16x16.png" sizes="16x16"/>
 	<link rel="icon" type="image/png" href="pics/favicons/favicon-32x32.png" sizes="32x32"/>
 	<!-- style -->
-	<link rel="stylesheet" type="text/css" href="../michaeldaviesfilms/css/style.css">
 	<link rel="stylesheet" type="text/css" href="../michaeldaviesfilms/css/master.css">
+	<link rel="stylesheet" type="text/css" href="../michaeldaviesfilms/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../michaeldaviesfilms/css/responsive.css">
 	<!-- libraries -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -18,28 +19,45 @@
 </head>
 
 <body>
- 	<!-- navigation -->
-	<button id="logo" onclick="jumpTo('landing')"></button>
+	<!-- mobile nav -->
+	<button id="menuButton" onclick="toggleMobileMenu(this)">
+		<div class="menuIconBar one"></div>
+		<div class="menuIconBar two"></div>
+		<div class="menuIconBar three"></div>
+	</button>
+	
+	<div id="mobileMenu">
+		<button class="menuHeaderButton mobile top" onclick="jumpTo('landing', true)">TOP</button>
+		<button class="menuHeaderButton mobile about" onclick="jumpTo('about', true)">ABOUT</button>
+		<button class="menuHeaderButton mobile work" onclick="jumpTo('scripts', true)">WRITING</button>
+		<button class="menuHeaderButton mobile work" onclick="jumpTo('drama', true)">DRAMA</button>
+		<button class="menuHeaderButton mobile ref" onclick="jumpTo('factual', true)">FACTUAL</button>
+		<button class="menuHeaderButton mobile contact" onclick="jumpTo('documentary', true)">DOCUMETARY</button>
+		<a class="menuHeaderButton mobile work" href="mailto:info@michaeldaviesfilms.com">CONTACT</a>
+	</div>
+	
+	<!-- desktop nav -->
+	<button id="logo" onclick="jumpTo('landing', false)"></button>
 
 	<div id="navButtonWrap">
 		<div class="navThing">
-			<button class="navButton" onclick="jumpTo('about')">ABOUT</button>
+			<button class="navButton" onclick="jumpTo('about', false)">ABOUT</button>
 			<div class="stick"></div>
 		</div>
 		<div class="navThing">
-			<button class="navButton" onclick="jumpTo('scripts')">WRITING</button>
+			<button class="navButton" onclick="jumpTo('scripts', false)">WRITING</button>
 			<div class="stick"></div>
 		</div>
 		<div class="navThing">
-			<button class="navButton" onclick="jumpTo('drama')">DRAMA</button>
+			<button class="navButton" onclick="jumpTo('drama', false)">DRAMA</button>
 			<div class="stick"></div>
 		</div>
 		<div class="navThing">
-			<button class="navButton" onclick="jumpTo('factual')">FACTUAL</button>
+			<button class="navButton" onclick="jumpTo('factual', false)">FACTUAL</button>
 			<div class="stick"></div>
 		</div>
 		<div class="navThing">
-			<button class="navButton" onclick="jumpTo('documentary')">DOCUMENTARY</button>
+			<button class="navButton" onclick="jumpTo('documentary', false)">DOCUMENTARY</button>
 			<div class="stick"></div>
 		</div>
 		<div class="navThing">

@@ -13,7 +13,7 @@ function playVideo(url, box) {
 }
 
 // scroll down page to div
-function jumpTo(dest) {
+function jumpTo(dest, mobile) {
     if (dest !== null) {
         if (dest == 'landing') {
             var target = '.section.' + dest;
@@ -24,6 +24,13 @@ function jumpTo(dest) {
 		$('html, body').animate({
 			scrollTop: $(target).offset().top
 		}, 500);
+	}
+	
+	// close menu on mobile
+	if (mobile) {
+		$("#mobileMenu").css("opacity", "0");
+		$("#mobileMenu").css("pointer-events", "none");
+		$(".menuIconBar").removeClass("change");
 	}
 }
 
@@ -41,4 +48,21 @@ function toggleExtraPanel(panel, pane) {
     // deactivate active pane, and activate new pane
     $(element).children().css('display', 'flex').css('display', 'none');
     $(element + ' .extra.' + pane).css('display', 'flex');
+}
+
+// mobile menu
+function toggleMobileMenu() {
+	if ($("#mobileMenu").css("opacity") == 0) {
+		$("#mobileMenu").css("opacity", "1");
+		$("#mobileMenu").css("pointer-events", "auto");
+
+		// animate menu button
+		$(".menuIconBar").addClass("change");
+	} else {
+		$("#mobileMenu").css("opacity", "0");
+		$("#mobileMenu").css("pointer-events", "none");
+
+		// animate menu button
+		$(".menuIconBar").removeClass("change");
+	}
 }
