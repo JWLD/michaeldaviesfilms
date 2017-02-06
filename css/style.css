@@ -1,3 +1,5 @@
+@import url('./master.css');
+
 /*** SIDE NAV ***/
 
 .logo {
@@ -191,10 +193,10 @@
 	padding: 8px 0 6px 0;
 	margin: 0 5px;
 	border-radius: 3px;
-	
+
 	background-color: #1a1a1a;
 	color: white;
-	
+
 	font: 25px Dense;
 	letter-spacing: 1px;
 }
@@ -481,9 +483,9 @@
 	flex-direction: column;
 	height: 100vh;
 	width: 100vw;
-	
+
 	background-color: #222;
-		
+
 	opacity: 0;
 	transition: 0.2s;
 }
@@ -494,12 +496,12 @@
 	top: 0;
 	right: 0;
 	z-index: 11;
-	
+
 	flex-direction: column;
-	
+
 	margin: 10px;
 	padding: 10px;
-	
+
 	background-color: #1a1a1a;
 }
 
@@ -533,7 +535,7 @@
 
 .menuHeaderButton {
 	margin: 10px 0;
-	
+
 	color: white;
 	font: calc(5vw + 20px) Dense;
 }

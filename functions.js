@@ -1,7 +1,3 @@
-function loadPage(page) {
-    $('.content.about').css('left', 0);
-}
-
 // slide video in from left
 function playVideo(url, box) {
 	$(box.childNodes[1]).css('left', '0px');
@@ -25,7 +21,7 @@ function jumpTo(dest, mobile) {
 			scrollTop: $(target).offset().top
 		}, 500);
 	}
-	
+
 	// close menu on mobile
 	if (mobile) {
 		$("#mobileMenu").css("opacity", "0");
