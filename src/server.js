@@ -10,7 +10,7 @@ app.engine('hbs', Hbs({
 
 app.set('view engine', 'hbs');
 
-// app.use(Express.static('public'));
+app.use(Express.static('public'));
 
 app.get('/', (req, res) => {
   res.render('home');
@@ -19,5 +19,5 @@ app.get('/', (req, res) => {
 app.set('port', process.env.PORT || 3000);
 
 app.listen(app.get('port'), () => {
-  console.log('Server running at 9000');
+  console.log(`Server running at ${app.get('port')}`);
 });
