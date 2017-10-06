@@ -1,9 +1,10 @@
 const Express = require('express');
-const Hbs = require('express-handlebars');
+const Handlebars = require('express-handlebars');
+const { navCategories } = require('./data.json');
 
 const app = Express();
 
-app.engine('hbs', Hbs({
+app.engine('hbs', Handlebars({
   defaultLayout: 'main',
   extname: 'hbs'
 }));
@@ -13,7 +14,9 @@ app.set('view engine', 'hbs');
 app.use(Express.static('public'));
 
 app.get('/', (req, res) => {
-  res.render('home');
+  res.render('home', {
+    navCategories
+  });
 });
 
 app.set('port', process.env.PORT || 3000);

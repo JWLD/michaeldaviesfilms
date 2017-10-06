@@ -1,1 +1,16 @@
-<h1>Hello World!</h1>
+<!-- SIDE NAV -->
+<nav>
+  <button class="logo desktop"></button>
+  <div class="navButtonWrap">
+    {{#each navCategories}}
+      <div class="navThing">
+        <button class="navButton">{{this}}</button>
+        <div class="stick"></div>
+      </div>
+    {{/each}}
+    <div class="navThing">
+      <a class="navButton" href="mailto:info@michaeldaviesfilms.com">CONTACT</a>
+      <div class="stick"></div>
+    </div>
+  </div>
+</nav>

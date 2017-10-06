@@ -1,2 +1,72 @@
-body {
-  background-color: #1a1a1a; }
+@font-face {
+  font-family: Simplifica;
+  src: url("../fonts/simplifica.ttf"); }
+
+@font-face {
+  font-family: Dense;
+  src: url("../fonts/dense.otf"); }
+
+html {
+  font-size: 62.5%; }
+
+body, button, a {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+div, a, button {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+a:hover, button:hover {
+  cursor: pointer; }
+
+button:focus {
+  outline: none; }
+
+a {
+  text-decoration: none; }
+
+button {
+  background-color: transparent; }
+
+.logo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 150px;
+  width: 150px;
+  box-sizing: border-box;
+  margin: 20px;
+  background-image: url("../pics/logos/mdflogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.navButtonWrap {
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  top: 190px;
+  right: 0; }
+
+.navThing {
+  margin-bottom: 7px; }
+
+.navThing:hover .stick {
+  width: 28px; }
+
+.navButton {
+  width: 140px;
+  padding: 5px 0 0 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font: 27px Simplifica; }
+
+.stick {
+  width: 23px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.1s; }
