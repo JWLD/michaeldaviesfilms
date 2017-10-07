@@ -1,0 +1,32 @@
+.script-wrap {
+	max-width: 95%;
+	color: white;
+	font: 2rem Simplifica;
+	letter-spacing: 0.05rem;
+}
+
+.script-wrap:not(:first-child) {
+	margin-top: 3rem;
+}
+
+.script-wrap:not(:last-child) {
+	padding-bottom: 3rem;
+	border-bottom: .1rem solid #333;
+}
+
+.script-info-wrap {
+	flex-direction: column;
+	min-width: 31rem;
+	margin-right: 3rem;
+	padding-right: 2rem;
+	border-right: .5rem solid $red;
+}
+
+.script-title {
+	font: 4rem Dense;
+	white-space: nowrap;
+}
+
+.script-text {
+	width: 71rem;
+}

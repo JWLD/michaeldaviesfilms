@@ -23,7 +23,7 @@
 
 <section class="sctn-about">
   <div class="content">
-    <!-- PORTRAIT AND IMDB -->
+    <!-- PORTRAIT AND IMDB LINKS -->
     <div class="portrait-imdb-wrap">
       <img class="portrait" src="./pics/portrait.png" alt="Profile picture">
       <div>
@@ -36,10 +36,27 @@
     <div class="about-text">
       <p>MICHAEL DAVIES is a BAFTA and RTS award-winning writer and director. Following a BA in Drama from Manchester University and an MA in Film and Television from Bristol University, he began his career at BBC Television Features, working on a wide range of projects, including his critically-acclaimed documentary series <i>Barnardo’s Children</i>.</p>
       <p>Michael has made observational documentaries, personal testimony based documentaries, drama-documentaries, dramatised adventure, comedy and factual entertainment programmes as well as writing and directing drama.</p>
-      <p>His first short film <i>What’s ‘Virgin’ Mean?</i> has screened at over fifty international festivals, winning seven awards and attracting a total of more than nine million hits on YouTube. Unusually for a short film, it also made a profit.</p>
+      <p>His first short film <i>What’s ‘Virgin’ Mean?</i> &nbsp;has screened at over fifty international festivals, winning seven awards and attracting a total of more than nine million hits on YouTube. Unusually for a short film, it also made a profit.</p>
       <p>Michael was selected for the BFI's <i>Think Shoot Distribute</i> course for ‘emerging feature film directors’, held at the London Film Festival, and won a place on the <i>Directing Actors</i> course at the NFTS. He was offered the chance to direct the re-boot of the hit BBC children’s drama <i>Tracy Beaker Returns</i>, and worked on all three series, winning a BAFTA and two RTS awards.</p>
       <p>His second short, <i>Love At First Sight</i>, starring Phyllida Law and John Hurt, was funded by the Wellcome Trust and a <i>Secret Millionaire</i> (see below). It won numerous awards, including an RTS, Rushes and Raindance, and was shortlisted for an Oscar.</p>
       <p>Michael’s successful association with the Wellcome Trust led to a commission to write his first feature film script, <i>Psychopomp</i>.</p>
     </div>
+  </div>
+</section>
+
+<!-- SCRIPTS -->
+<h2 class="divider">IN DEVELOPMENT</h2>
+
+<section class="sctn-scripts">
+  <div class="content">
+    {{#each scripts}}
+      <div class="script-wrap">
+        <div class="script-info-wrap">
+          <div class="script-title">{{title}}</div>
+          <div>{{category}}</div>
+        </div>
+        <p class="script-text">{{text}}</p>
+      </div>
+    {{/each}}
   </div>
 </section>

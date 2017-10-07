@@ -1,6 +1,6 @@
 const Express = require('express');
 const Handlebars = require('express-handlebars');
-const { navCategories } = require('./data.json');
+const { navCategories, scripts } = require('./data.json');
 
 const app = Express();
 
@@ -15,7 +15,8 @@ app.use(Express.static('public'));
 
 app.get('/', (req, res) => {
   res.render('home', {
-    navCategories
+    navCategories,
+    scripts
   });
 });
 
