@@ -9,13 +9,13 @@
 html {
   font-size: 62.5%; }
 
-body, button, a {
+body, button, a, div, section, h2, p {
   border: 0;
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-div, a, button {
+div, a, button, h2 {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -32,41 +32,107 @@ a {
 button {
   background-color: transparent; }
 
+body {
+  background-color: #1a1a1a; }
+
+h2.divider {
+  justify-content: flex-start;
+  height: 10rem;
+  width: 100vw;
+  padding-left: 2.5rem;
+  color: white;
+  background-color: #1a1a1a;
+  font: 6rem Dense; }
+
+section {
+  width: 100vw;
+  background-color: #222; }
+
+.content {
+  flex-direction: column;
+  width: calc(100% - 19rem);
+  padding: 7vh 2rem;
+  background-color: #262626; }
+
 .logo {
   position: fixed;
   top: 0;
   right: 0;
-  height: 150px;
-  width: 150px;
-  box-sizing: border-box;
-  margin: 20px;
-  background-image: url("../pics/logos/mdflogo.png");
+  height: 15rem;
+  width: 15rem;
+  margin: 2rem;
+  background-image: url("../pics/mdflogo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center; }
 
-.navButtonWrap {
+.nav-button-wrap {
   flex-direction: column;
   align-items: flex-end;
   position: fixed;
-  top: 190px;
+  top: 19rem;
   right: 0; }
 
-.navThing {
-  margin-bottom: 7px; }
+.nav-thing {
+  margin-bottom: .7rem; }
 
-.navThing:hover .stick {
-  width: 28px; }
+.nav-thing:hover .stick {
+  width: 2.8rem; }
 
-.navButton {
-  width: 140px;
-  padding: 5px 0 0 5px;
+.nav-button {
+  width: 14rem;
+  padding: .5rem 0 0 .5rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-  font: 27px Simplifica; }
+  font: 2.7rem Simplifica; }
 
 .stick {
-  width: 23px;
-  height: 2px;
+  width: 2.3rem;
+  height: .2rem;
   background-color: rgba(0, 0, 0, 0.5);
   transition: 0.1s; }
+
+.sctn-landing {
+  height: 100vh;
+  background-image: url("../pics/lafs.png");
+  background-size: cover; }
+
+.sctn-about .content {
+  flex-direction: row; }
+
+.portrait-imdb-wrap {
+  flex-direction: column;
+  margin-right: 2rem; }
+
+.portrait {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 100%;
+  margin-bottom: 2rem; }
+
+.imdb-link {
+  width: 9rem;
+  padding: .8rem 0 .6rem 0;
+  margin: 0 .5rem;
+  border-radius: .3rem;
+  background-color: #1a1a1a;
+  color: white;
+  font: 2.5rem Dense;
+  letter-spacing: .1rem; }
+
+.imdb-link:hover {
+  background-color: #333; }
+
+.about-text {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 70rem;
+  margin-left: 1rem;
+  padding: 2rem;
+  color: white;
+  background-color: #222;
+  font: 2rem Simplifica;
+  letter-spacing: 0.05rem; }
+
+.about-text p:not(:last-child) {
+  margin: 0 0 1.2rem 0; }
