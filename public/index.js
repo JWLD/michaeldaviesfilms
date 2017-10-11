@@ -21,3 +21,18 @@ Array.from(document.querySelectorAll('.info-button')).forEach(function(button) {
     if (panes[altPane]) panes[altPane].classList.add('hidden');
   });
 });
+
+// SLIDE IN VIDEOS
+Array.from(document.querySelectorAll('.video-wrap')).forEach(function(button) {
+  button.addEventListener('click', function(e) {
+    var videoBox = document.querySelector('#vimeo-' + button.dataset.key);
+
+    // slide in
+    videoBox.classList.add('show-video');
+
+    // update src after animation finishes
+    setTimeout(function() {
+      videoBox.src = 'https://player.vimeo.com/video/' + button.dataset.vimeo + '?title=0&byline=0&portrait=0';
+    }, 500);
+  });
+});
