@@ -7,7 +7,7 @@
         <iframe class="video-box" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         <div class="fa fa-play play-button"></div>
         <div class="vid-overlay">
-          <span class="vid-info">{{overlayInfo}}</span>
+          <span class="vid-info">{{{overlayInfo}}}</span>
         </div>
       </div>
     {{else}}
@@ -19,8 +19,10 @@
     <!-- INFO BOX -->
     <div class="info-wrap">
       <div class="title-wrap">
-        <span class="film-title">{{title}}</span>
-        <span class="film-subtitle">{{category}}</span>
+        <span class="film-title">{{{title}}}</span>
+        {{#if subtitle}}
+          <span class="film-subtitle">{{subtitle}}</span>
+        {{/if}}
       </div>
       <p class="film-blurb">{{{blurb}}}</p>
       <div>
@@ -79,6 +81,10 @@
             <span>{{moreInfo.distribution.company}}</span>
             &#8226;
             <span>{{moreInfo.distribution.details}}</span>
+            {{#if moreInfo.distribution.audience}}
+              &#8226;
+              <span>{{moreInfo.distribution.audience}}</span>
+            {{/if}}
           </div>
         {{/if}}
 
