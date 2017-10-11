@@ -212,6 +212,81 @@
           "MOVING ON"
         ]
       }
+    },
+    {
+      "key": "tbr2",
+      "vimeoId": "",
+      "overlayInfo": "",
+      "title": "Tracy Beaker Returns",
+      "category": "Series 2",
+      "blurb": "A recommission. Hurrah.",
+      "awards": {
+        "wins": [
+          {
+            "festival": "Royal Television Society Award, UK 2011",
+            "award": "Best Drama Production"
+          },
+          {
+            "festival": "Royal Television Society Programme Award, UK 2011",
+            "award": "Best Children's Drama"
+          },
+          {
+            "festival": "Chicago International Film Festival, USA 2011",
+            "award": "Best Direction"
+          }
+        ],
+        "nominations": [
+          {
+            "festival": "BAFTA Children's Award, UK 2011",
+            "award": "Audience Award"
+          }
+        ]
+      },
+      "moreInfo": {
+        "distribution": {
+          "company": "BBC",
+          "details": "5 x 30 min CBBC / BBC HD"
+        },
+        "episodes": [
+          "THE SCARE GAME",
+          "OUT OF CONTROL",
+          "SNAKEBITE",
+          "GRANDDAD",
+          "CHAIN REACTION"
+        ]
+      }
+    },
+    {
+      "key": "tbr3",
+      "vimeoId": "",
+      "overlayInfo": "",
+      "title": "Tracy Beaker Returns",
+      "category": "Series 3",
+      "blurb": "Dani Harmer plays Tracy Beaker one last time.",
+      "awards": {
+        "nominations": [
+          {
+            "festival": "BAFTA Children's Award, UK 2012",
+            "award": "Best Drama"
+          },
+          {
+            "festival": "BAFTA Children's Award, UK 2012",
+            "award": "Audience Award"
+          }
+        ]
+      },
+      "moreInfo": {
+        "distribution": {
+          "company": "BBC",
+          "details": "4 x 30 min CBBC / BBC HD"
+        },
+        "episodes": [
+          "BELONGING",
+          "EGGS",
+          "JUSTINE LITTLEWOOD RETURNS",
+          "SUMMER HOLIDAY"
+        ]
+      }
     }
   ]
 }
