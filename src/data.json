@@ -1,5 +1,11 @@
 {
-  "navCategories": ["ABOUT", "WRITING", "DRAMA", "FACTUAL", "DOCUMENTARY"],
+  "navCategories": [
+    "ABOUT",
+    "WRITING",
+    "DRAMA",
+    "FACTUAL",
+    "DOCUMENTARY"
+  ],
   "scripts": [
     {
       "title": "PSYCHOPOMP",
@@ -25,6 +31,187 @@
       "title": "THE RIDE",
       "category": "Treatment",
       "text": "Low budget thriller about the bizarre consequences of a fatal accident in a theme park."
+    }
+  ],
+  "drama": [
+    {
+      "key": "lafs",
+      "vimeoId": "55458811",
+      "overlayInfo": "Excerpt",
+      "title": "Love At First Sight",
+      "category": "Short Film",
+      "blurb": "Romantic comedy starring John Hurt<br>and Phyllida Law.",
+      "awards": {
+        "wins": [
+          {
+            "festival": "Royal Television Society Award, UK 2010",
+            "award": "Best Short Film"
+          },
+          {
+            "festival": "Aspen Shortfest, USA 2011",
+            "award": "Audience Award"
+          },
+          {
+            "festival": "Dresden Internatinal Short Film Festival, Germany 2011",
+            "award": "Special Mention"
+          },
+          {
+            "festival": "British Independent Film Festival, UK 2011",
+            "award": "Best Director"
+          },
+          {
+            "festival": "British Independent Film Festival, UK 2011",
+            "award": "Best Actress"
+          },
+          {
+            "festival": "Rushes Soho Shorts Festival, UK 2011",
+            "award": "Best Short Film"
+          },
+          {
+            "festival": "Tri Media Film Festival, USA 2011",
+            "award": "Best International Film"
+          },
+          {
+            "festival": "Tri Media Film Festival, USA 2011",
+            "award": "Audience Award"
+          },
+          {
+            "festival": "Raindance Film Festival, UK 2011",
+            "award": "Best UK Short Film"
+          },
+          {
+            "festival": "Cornwall Film Festival, UK 2011",
+            "award": "Best International Short Film"
+          },
+          {
+            "festival": "Seattle Shorts Film Festival, USA 2011",
+            "award": "Best Actress"
+          },
+          {
+            "festival": "Prague Short Film Festival, Czech Republic 2012",
+            "award": "Audience Award"
+          },
+          {
+            "festival": "Postira Film Festival, Croatia 2012",
+            "award": "Audience Award"
+          },
+          {
+            "festival": "Ojai Film Festival, USA 2012",
+            "award": "Best Narrative Short"
+          },
+          {
+            "festival": "Rouen Film Festival, France 2012",
+            "award": "Best Fiction Film"
+          }
+        ],
+        "nominations": [
+          {
+            "festival": "British Independent Film Awards, UK 2011",
+            "award": "Best British Short"
+          }
+        ],
+        "shortlistings": [
+          {
+            "festival": "Academy Awards, USA 2012",
+            "award": "Live Action Short"
+          }
+        ]
+      }
+    },
+    {
+      "key": "wvm",
+      "vimeoId": "167904928",
+      "overlayInfo": "",
+      "title": "What's Virgin Mean?",
+      "category": "Short Film",
+      "blurb": "Comedy starring Kate Isitt.",
+      "awards": {
+        "wins": [
+          {
+            "festival": "Encounters Film Festival, UK 2008",
+            "award": "NFTS Special Mention"
+          },
+          {
+            "festival": "Prix de Court Pathe, Switzerland 2009",
+            "award": "Audience Award"
+          },
+          {
+            "festival": "CFF, USA 2009",
+            "award": "Special Jury Award For Best Comedy"
+          },
+          {
+            "festival": "Soul 4 Reel, USA 2010",
+            "award": "Audience Choice Award"
+          },
+          {
+            "festival": "Time Film Festival, Switzerland 2010",
+            "award": "Best Short Film"
+          },
+          {
+            "festival": "Bratislava International Film Festival, Slovakia 2010",
+            "award": "Best Short Film"
+          },
+          {
+            "festival": "Forster Film Festival, Australia 2013",
+            "award": "Originality Award"
+          }
+        ]
+      }
+    },
+    {
+      "key": "tbr1",
+      "vimeoId": "",
+      "overlayInfo": "",
+      "title": "Tracy Beaker Returns",
+      "category": "Series 1",
+      "blurb": "Reboot of the popular children's<br>series <i>TRACY BEAKER</i>.",
+      "awards": {
+        "wins": [
+          {
+            "festival": "BAFTA Children's Award, UK 2010",
+            "award": "Best Drama"
+          },
+          {
+            "festival": "Chicago International Film Festival, USA 2010",
+            "award": "Best Direction"
+          }
+        ],
+        "nominations": [
+          {
+            "festival": "BAFTA Children's Award, UK 2010",
+            "award": "Best Female Performer - Dani Harmer"
+          },
+          {
+            "festival": "BAFTA Children's Award, UK 2010",
+            "award": "Best Writer"
+          },
+          {
+            "festival": "BAFTA Children's Award, UK 2010",
+            "award": "Audience Award"
+          },
+          {
+            "festival": "Royal Television Society Award, UK 2010",
+            "award": "Best Children's Drama"
+          },
+          {
+            "festival": "BANFF Television Awards, UK 2010",
+            "award": "Best Children's Drama"
+          }
+        ]
+      },
+      "moreInfo": {
+        "distribution": {
+          "company": "BBC",
+          "details": "5 x 30 min CBBC / BBC HD"
+        },
+        "episodes": [
+          "GOOD LUCK BOY",
+          "VIVA CARMEN",
+          "WEREWOLF",
+          "A DAY AT THE BEACH",
+          "MOVING ON"
+        ]
+      }
     }
   ]
 }

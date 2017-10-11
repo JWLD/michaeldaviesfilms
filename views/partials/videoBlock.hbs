@@ -1,0 +1,85 @@
+<div class="video-block">
+  <!-- VIDEO AND INFO PANEL -->
+  <div class="video-info-wrap">
+    <!-- VIDEO BOX -->
+    {{#if vimeoId}}
+      <div class="video-wrap" style="background-image: url('pics/thumbs/{{key}}.png')" data-vimeo="{{vimeoId}}">
+        <iframe class="video-box" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="fa fa-play play-button"></div>
+        <div class="vid-overlay">
+          <span class="vid-info">{{overlayInfo}}</span>
+        </div>
+      </div>
+    {{else}}
+      <div class="video-wrap">
+        NO VIDEO
+      </div>
+    {{/if}}
+
+    <!-- INFO BOX -->
+    <div class="info-wrap">
+      <div class="title-wrap">
+        <span class="film-title">{{title}}</span>
+        <span class="film-subtitle">{{category}}</span>
+      </div>
+      <p class="film-blurb">{{{blurb}}}</p>
+      <div>
+        {{#if awards}}
+          <button class="info-button awards" data-key={{key}} data-pane="awards">Awards</button>
+        {{/if}}
+        {{#if moreInfo}}
+          <button class="info-button info" data-key={{key}} data-pane="info">More Info</button>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+
+  <!-- EXTRA DETAILS PANEL -->
+  <div class="extra-panel" id="panel-{{key}}">
+    <!-- AWARDS -->
+    {{#if awards}}
+      <div class="extra awards" id="awards-{{key}}">
+        <!-- WINS -->
+        {{#if awards.wins}}
+          <h3 class="award-head">WINS</h3>
+          {{#each awards.wins}}
+            <div class="award-wrap">
+              <span>{{festival}}</span>&#8226;<span>{{award}}</span>
+            </div>
+          {{/each}}
+        {{/if}}
+
+        <!-- NOMINATIONS -->
+        {{#if awards.nominations}}
+          <h3 class="award-head">NOMINATIONS</h3>
+          {{#each awards.nominations}}
+            <div class="award-wrap">
+              <span>{{festival}}</span>&#8226;<span>{{award}}</span>
+            </div>
+          {{/each}}
+        {{/if}}
+
+        <!-- SHORTLISTINGS -->
+        {{#if awards.shortlistings}}
+          <h3 class="award-head">SHORTLISTINGS</h3>
+          {{#each awards.shortlistings}}
+            <div class="award-wrap">
+              <span>{{festival}}</span>&#8226;<span>{{award}}</span>
+            </div>
+          {{/each}}
+        {{/if}}
+      </div>
+    {{/if}}
+
+    <!-- MORE INFO -->
+    {{#if moreInfo}}
+      <div class="extra details hidden" id="info-{{key}}">
+        <div>
+          <span>{{moreInfo.distribution.company}}</span>
+          &#8226;
+          <span>{{moreInfo.distribution.details}}</span>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</div>

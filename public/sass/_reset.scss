@@ -9,7 +9,7 @@ body, button, a, div, section, h2, p {
   box-sizing: border-box;
 }
 
-div, a, button, h2 {
+div, a, button, h2, span {
   @include flex();
 }
 
@@ -27,4 +27,8 @@ a {
 
 button {
   background-color: transparent;
+}
+
+iframe {
+  border: none;
 }

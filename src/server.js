@@ -1,11 +1,12 @@
 const Express = require('express');
 const Handlebars = require('express-handlebars');
-const { navCategories, scripts } = require('./data.json');
+const { navCategories, scripts, drama } = require('./data.json');
 
 const app = Express();
 
 app.engine('hbs', Handlebars({
   defaultLayout: 'main',
+  partialsPath: './partials',
   extname: 'hbs'
 }));
 
@@ -16,7 +17,8 @@ app.use(Express.static('public'));
 app.get('/', (req, res) => {
   res.render('home', {
     navCategories,
-    scripts
+    scripts,
+    drama
   });
 });
 
