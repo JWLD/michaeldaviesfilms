@@ -79,6 +79,11 @@
           &#8226;
           <span>{{moreInfo.distribution.details}}</span>
         </div>
+
+        <!-- EPISODE LIST -->
+        {{#each moreInfo.episodes}}
+          <span>{{this}}</span>
+        {{/each}}
       </div>
     {{/if}}
   </div>

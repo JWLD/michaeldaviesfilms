@@ -312,5 +312,8 @@ section {
 .extra.awards span {
   width: 50%; }
 
+.extra.details span {
+  height: 3rem; }
+
 .panel-open {
   height: 22.5rem; }
