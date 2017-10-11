@@ -16,8 +16,8 @@ Array.from(document.querySelectorAll('.info-button')).forEach(function(button) {
     }
 
     // show / hide correct panes
-    var altPane = data.pane === 'awards' ? 'info' : 'awards';
-    panes[altPane].classList.add('hidden');
     panes[data.pane].classList.remove('hidden');
+    var altPane = data.pane === 'awards' ? 'info' : 'awards';
+    if (panes[altPane]) panes[altPane].classList.add('hidden');
   });
 });

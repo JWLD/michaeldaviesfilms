@@ -38,7 +38,7 @@
   <div class="extra-panel" id="panel-{{key}}">
     <!-- AWARDS -->
     {{#if awards}}
-      <div class="extra awards" id="awards-{{key}}">
+      <div class="extra awards hidden" id="awards-{{key}}">
         <!-- WINS -->
         {{#if awards.wins}}
           <h3 class="award-head">WINS</h3>
@@ -74,11 +74,13 @@
     <!-- MORE INFO -->
     {{#if moreInfo}}
       <div class="extra details hidden" id="info-{{key}}">
-        <div>
-          <span>{{moreInfo.distribution.company}}</span>
-          &#8226;
-          <span>{{moreInfo.distribution.details}}</span>
-        </div>
+        {{#if moreInfo.distribution}}
+          <div>
+            <span>{{moreInfo.distribution.company}}</span>
+            &#8226;
+            <span>{{moreInfo.distribution.details}}</span>
+          </div>
+        {{/if}}
 
         <!-- EPISODE LIST -->
         {{#each moreInfo.episodes}}
