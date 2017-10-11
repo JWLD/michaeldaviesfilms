@@ -1,10 +1,25 @@
 {
   "navCategories": [
-    "ABOUT",
-    "WRITING",
-    "DRAMA",
-    "FACTUAL",
-    "DOCUMENTARY"
+    {
+      "title": "ABOUT",
+      "target": "about"
+    },
+    {
+      "title": "WRITING",
+      "target": "scripts"
+    },
+    {
+      "title": "DRAMA",
+      "target": "drama"
+    },
+    {
+      "title": "FACTUAL",
+      "target": "factual"
+    },
+    {
+      "title": "DOCUMENTARY",
+      "target": "documentary"
+    }
   ],
   "scripts": [
     {
@@ -36,6 +51,7 @@
   "portfolio": [
     {
       "category": "DRAMA",
+      "key": "drama",
       "films": [
         {
           "key": "lafs",
@@ -310,6 +326,7 @@
     },
     {
       "category": "FACTUAL & DRAMATISED ADVENTURE",
+      "key": "factual",
       "films": [
         {
           "key": "ozAndJames",
@@ -423,6 +440,7 @@
     },
     {
       "category": "DOCUMENTARY",
+      "key": "documentary",
       "films": [
         {
           "key": "warWire",

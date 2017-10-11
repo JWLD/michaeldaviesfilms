@@ -36,3 +36,15 @@ Array.from(document.querySelectorAll('.video-wrap')).forEach(function(button) {
     }, 500);
   });
 });
+
+// JUMP TO DIV
+Array.from(document.querySelectorAll('.nav-button.scroll')).forEach(function(button) {
+  button.addEventListener('click', function() {
+    var target = document.querySelector('#sctn-' + button.dataset.target);
+    document.body.scrollTop = target.offsetTop;
+  });
+});
+
+document.querySelector('.logo.desktop').addEventListener('click', function() {
+  document.body.scrollTop = 0;
+});

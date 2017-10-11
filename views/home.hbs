@@ -4,7 +4,7 @@
   <div class="nav-button-wrap">
     {{#each navCategories}}
       <div class="nav-thing">
-        <button class="nav-button">{{this}}</button>
+        <button class="nav-button scroll" data-target={{target}}>{{title}}</button>
         <div class="stick"></div>
       </div>
     {{/each}}
@@ -19,7 +19,7 @@
 <section class="sctn-landing"></section>
 
 <!-- ABOUT -->
-<h2 class="divider">ABOUT</h2>
+<h2 class="divider" id="sctn-about">ABOUT</h2>
 
 <section class="sctn-about">
   <div class="content">
@@ -45,7 +45,7 @@
 </section>
 
 <!-- SCRIPTS -->
-<h2 class="divider">IN DEVELOPMENT</h2>
+<h2 class="divider" id="sctn-scripts">IN DEVELOPMENT</h2>
 
 <section class="sctn-scripts">
   <div class="content">
@@ -63,7 +63,7 @@
 
 <!-- PORTFOLIO -->
 {{#each portfolio}}
-  <h2 class="divider">{{this.category}}</h2>
+  <h2 class="divider" id="sctn-{{key}}">{{this.category}}</h2>
 
   <section class="sctn-drama">
     <div class="content">
