@@ -1,0 +1,43 @@
+body {
+  background-color: #1a1a1a;
+}
+
+h2.divider {
+	justify-content: flex-start;
+	height: 10rem;
+	width: 100vw;
+	padding-left: 2.5rem;
+	color: white;
+	background-color: #1a1a1a;
+	font: 6rem Dense;
+}
+
+section {
+  width: 100vw;
+  background-color: #222;
+}
+
+.content {
+  flex-direction: column;
+  width: calc(100% - 19rem);
+  padding: 7vmin 2rem;
+  background-color: #262626;
+}
+
+.hidden {
+  display: none;
+}
+
+// RESPONSIVE
+
+@media (max-width: 1024px) {
+  .content {
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+  h2.divider {
+    font-size: 9.5vw;
+  }
+}

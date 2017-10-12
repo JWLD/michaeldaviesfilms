@@ -1,0 +1,29 @@
+.sctn-landing {
+  @include flex();
+  height: 100vh;
+  background-image: url('../pics/lafs.png');
+  background-size: cover;
+}
+
+.mobile-logo {
+  height: 50vmin;
+  width: 50vmin;
+  background-image: url('../pics/mdflogo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+// RESPONSIVE
+
+@media (min-width: 1024px) {
+  .mobile-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sctn-landing {
+    background-position: center;
+  }
+}

@@ -1,0 +1,73 @@
+.sctn-about .content {
+  flex-direction: row;
+}
+
+.portrait-imdb-wrap {
+  flex-direction: column;
+  margin: 0 2rem 2rem 0;
+}
+
+// PORTRAIT
+
+.portrait {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+}
+
+.imdb-link {
+	width: 9rem;
+	padding: .8rem 0 .6rem 0;
+	margin: 0 .5rem;
+	border-radius: .3rem;
+	background-color: #1a1a1a;
+	color: white;
+	font: 2.5rem Dense;
+	letter-spacing: .1rem;
+}
+
+.imdb-link:hover {
+	background-color: #333;
+}
+
+// ABOUT
+
+.about-text {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 70rem;
+  padding: 2rem;
+  color: white;
+  background-color: #222;
+  font: 2rem Simplifica;
+  letter-spacing: 0.05rem;
+}
+
+.about-text p:not(:last-child) {
+  margin: 0 0 1.2rem 0;
+}
+
+// RESPONSIVE
+
+@media (max-width: 1024px) {
+  .sctn-about .content {
+    flex-wrap: wrap;
+  }
+
+  .portrait {
+    height: 50vw;
+    width: 50vw;
+  }
+
+  .portrait-imdb-wrap {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .portrait {
+    height: 60vw;
+    width: 60vw;
+  }
+}

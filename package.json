@@ -1,0 +1,26 @@
+{
+  "name": "michaeldaviesfilms",
+  "version": "1.0.0",
+  "description": "Film director portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run sass && node src/server.js",
+    "dev": "nodemon src/server.js",
+    "sass": "./node_modules/.bin/node-sass ./public/sass/main.scss ./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWLD/michaeldaviesfilms.git"
+  },
+  "author": "Jack Davies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JWLD/michaeldaviesfilms/issues"
+  },
+  "homepage": "https://github.com/JWLD/michaeldaviesfilms#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "node-sass": "^4.5.3"
+  }
+}
