@@ -35,3 +35,9 @@ section {
 		width: 100%;
 	}
 }
+
+@media (max-width: 600px) {
+  h2.divider {
+    font-size: 9.5vw;
+  }
+}

@@ -64,6 +64,10 @@ section {
   .content {
     width: 100%; } }
 
+@media (max-width: 600px) {
+  h2.divider {
+    font-size: 9.5vw; } }
+
 .logo {
   position: fixed;
   top: 0;
@@ -359,3 +363,14 @@ section {
 
 .panel-open {
   height: 22.5rem; }
+
+@media (max-width: 900px) {
+  .video-block {
+    max-width: 90vw; }
+  .video-info-wrap {
+    flex-direction: column !important; }
+  .video-wrap {
+    margin: 0 0 2rem 0 !important; }
+  .award-wrap {
+    height: auto;
+    margin: .5rem 0; } }
