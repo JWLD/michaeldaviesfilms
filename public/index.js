@@ -38,10 +38,15 @@ Array.from(document.querySelectorAll('.video-wrap')).forEach(function(button) {
 });
 
 // JUMP TO DIV
-Array.from(document.querySelectorAll('.nav-button.scroll')).forEach(function(button) {
+Array.from(document.querySelectorAll('.scroll')).forEach(function(button) {
   button.addEventListener('click', function() {
     var target = document.querySelector('#sctn-' + button.dataset.target);
     document.body.scrollTop = target.offsetTop;
+
+    // if mobile menu, then toggle
+    if (!document.querySelector('.mobile-menu').classList.contains('hide-menu')) {
+      toggleMobileMenu();
+    }
   });
 });
 
@@ -51,6 +56,10 @@ document.querySelector('.logo.desktop').addEventListener('click', function() {
 
 // TOGGLE MOBILE MENU
 document.querySelector('.mobile-burger').addEventListener('click', function() {
+  toggleMobileMenu();
+});
+
+function toggleMobileMenu() {
   var mobileMenu = document.querySelector('.mobile-menu');
   var burgerBars = Array.from(document.querySelectorAll('.burger-bar'));
 
@@ -65,4 +74,4 @@ document.querySelector('.mobile-burger').addEventListener('click', function() {
     });
     mobileMenu.classList.add('hide-menu');
   }
-});
+}

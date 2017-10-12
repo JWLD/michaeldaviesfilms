@@ -68,3 +68,11 @@
 .hide-menu {
   opacity: 0;
 }
+
+// RESPONSIVE
+
+@media (min-width: 1024px) {
+  .mobile-burger {
+    display: none;
+  }
+}

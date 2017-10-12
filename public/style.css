@@ -165,6 +165,10 @@ section {
 .hide-menu {
   opacity: 0; }
 
+@media (min-width: 1024px) {
+  .mobile-burger {
+    display: none; } }
+
 .sctn-landing {
   display: flex;
   justify-content: center;

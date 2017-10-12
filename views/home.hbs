@@ -6,11 +6,9 @@
 </button>
 
 <div class="mobile-menu hide-menu">
-  <button class="mobile-nav-button">ABOUT</button>
-  <button class="mobile-nav-button">WRITING</button>
-  <button class="mobile-nav-button">DRAMA</button>
-  <button class="mobile-nav-button">FACTUAL</button>
-  <button class="mobile-nav-button">DOCUMETARY</button>
+  {{#each navCategories}}
+    <button class="mobile-nav-button scroll" data-target={{target}}>{{title}}</button>
+  {{/each}}
   <a class="mobile-nav-button" href="mailto:info@michaeldaviesfilms.com">CONTACT</a>
 </div>
 
