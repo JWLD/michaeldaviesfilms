@@ -48,3 +48,21 @@ Array.from(document.querySelectorAll('.nav-button.scroll')).forEach(function(but
 document.querySelector('.logo.desktop').addEventListener('click', function() {
   document.body.scrollTop = 0;
 });
+
+// TOGGLE MOBILE MENU
+document.querySelector('.mobile-burger').addEventListener('click', function() {
+  var mobileMenu = document.querySelector('.mobile-menu');
+  var burgerBars = Array.from(document.querySelectorAll('.burger-bar'));
+
+  if (mobileMenu.classList.contains('hide-menu')) {
+    burgerBars.forEach(function(bar) {
+      bar.classList.add('animate');
+    });
+    mobileMenu.classList.remove('hide-menu');
+  } else {
+    burgerBars.forEach(function(bar) {
+      bar.classList.remove('animate');
+    });
+    mobileMenu.classList.add('hide-menu');
+  }
+});

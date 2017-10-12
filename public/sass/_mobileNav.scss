@@ -1,0 +1,70 @@
+// BURGER BUTTON
+
+.mobile-burger {
+  flex-direction: column;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #1a1a1a;
+}
+
+.mobile-burger:hover .burger-bar {
+  background-color: $red;
+}
+
+.burger-bar {
+  width: 3.5rem;
+  height: .5rem;
+  background-color: white;
+  transition: .2s;
+}
+
+.burger-bar:not(:last-child) {
+  margin-bottom: .8rem;
+}
+
+.burger-bar.animate:first-child {
+  transform: rotate(-45deg) translate(-.9rem, .9rem);
+}
+
+.burger-bar.animate:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-bar.animate:last-child {
+  transform: rotate(45deg) translate(-.9rem, -.9rem);
+}
+
+// MOBILE MENU
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #222;
+  transition: .2s;
+}
+
+.mobile-nav-button {
+  color: white;
+  font: calc(5vw + 2rem) Dense;
+}
+
+.mobile-nav-button:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.mobile-nav-button:hover {
+  color: $red;
+}
+
+.hide-menu {
+  opacity: 0;
+}

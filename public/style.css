@@ -110,10 +110,80 @@ section {
   .desktop-nav {
     display: none; } }
 
+.mobile-burger {
+  flex-direction: column;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #1a1a1a; }
+
+.mobile-burger:hover .burger-bar {
+  background-color: #f66; }
+
+.burger-bar {
+  width: 3.5rem;
+  height: .5rem;
+  background-color: white;
+  transition: .2s; }
+
+.burger-bar:not(:last-child) {
+  margin-bottom: .8rem; }
+
+.burger-bar.animate:first-child {
+  transform: rotate(-45deg) translate(-0.9rem, 0.9rem); }
+
+.burger-bar.animate:nth-child(2) {
+  opacity: 0; }
+
+.burger-bar.animate:last-child {
+  transform: rotate(45deg) translate(-0.9rem, -0.9rem); }
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #222;
+  transition: .2s; }
+
+.mobile-nav-button {
+  color: white;
+  font: calc(5vw + 2rem) Dense; }
+
+.mobile-nav-button:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.mobile-nav-button:hover {
+  color: #f66; }
+
+.hide-menu {
+  opacity: 0; }
+
 .sctn-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-image: url("../pics/lafs.png");
   background-size: cover; }
+
+.mobile-logo {
+  height: 50vmin;
+  width: 50vmin;
+  background-image: url("../pics/mdflogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+@media (min-width: 1024px) {
+  .mobile-logo {
+    display: none; } }
 
 @media (max-width: 1024px) {
   .sctn-landing {
