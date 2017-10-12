@@ -3,3 +3,11 @@
   background-image: url('../pics/lafs.png');
   background-size: cover;
 }
+
+// RESPONSIVE
+
+@media (max-width: 1024px) {
+  .sctn-landing {
+    background-position: center;
+  }
+}

@@ -1,5 +1,5 @@
 <!-- SIDE NAV -->
-<nav>
+<nav class="desktop-nav">
   <button class="logo desktop"></button>
   <div class="nav-button-wrap">
     {{#each navCategories}}
@@ -65,7 +65,7 @@
 {{#each portfolio}}
   <h2 class="divider" id="sctn-{{key}}">{{this.category}}</h2>
 
-  <section class="sctn-drama">
+  <section>
     <div class="content">
       {{#each this.films}}
         {{> videoBlock this}}

@@ -54,11 +54,15 @@ section {
 .content {
   flex-direction: column;
   width: calc(100% - 19rem);
-  padding: 7vh 2rem;
+  padding: 7vmin 2rem;
   background-color: #262626; }
 
 .hidden {
   display: none; }
+
+@media (max-width: 1024px) {
+  .content {
+    width: 100%; } }
 
 .logo {
   position: fixed;
@@ -98,17 +102,25 @@ section {
   background-color: rgba(0, 0, 0, 0.5);
   transition: 0.1s; }
 
+@media (max-width: 1024px) {
+  .desktop-nav {
+    display: none; } }
+
 .sctn-landing {
   height: 100vh;
   background-image: url("../pics/lafs.png");
   background-size: cover; }
+
+@media (max-width: 1024px) {
+  .sctn-landing {
+    background-position: center; } }
 
 .sctn-about .content {
   flex-direction: row; }
 
 .portrait-imdb-wrap {
   flex-direction: column;
-  margin-right: 2rem; }
+  margin: 0 2rem 2rem 0; }
 
 .portrait {
   height: 20vw;
@@ -142,6 +154,20 @@ section {
 .about-text p:not(:last-child) {
   margin: 0 0 1.2rem 0; }
 
+@media (max-width: 1024px) {
+  .sctn-about .content {
+    flex-wrap: wrap; }
+  .portrait {
+    height: 50vw;
+    width: 50vw; }
+  .portrait-imdb-wrap {
+    margin-right: 0; } }
+
+@media (max-width: 900px) {
+  .portrait {
+    height: 60vw;
+    width: 60vw; } }
+
 .script-wrap {
   max-width: 95%;
   color: white;
@@ -168,6 +194,19 @@ section {
 
 .script-text {
   width: 71rem; }
+
+@media (max-width: 900px) {
+  .script-wrap {
+    flex-direction: column;
+    max-width: 100%; }
+  .script-info-wrap {
+    width: 100%;
+    margin: 0 0 3rem 0; }
+  .script-text {
+    max-width: 90vw; }
+  .script-wrap:nth-child(odd) .script-info-wrap {
+    border-left: 5px solid #f66;
+    border-right: 0; } }
 
 .video-block {
   flex-direction: column;

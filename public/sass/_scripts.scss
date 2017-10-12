@@ -30,3 +30,26 @@
 .script-text {
 	width: 71rem;
 }
+
+// RESPONSIVE
+
+@media (max-width: 900px) {
+	.script-wrap {
+		flex-direction: column;
+		max-width: 100%;
+	}
+
+	.script-info-wrap {
+		width: 100%;
+		margin: 0 0 3rem 0;
+	}
+
+	.script-text {
+		max-width: 90vw;
+	}
+
+	.script-wrap:nth-child(odd) .script-info-wrap {
+		border-left: 5px solid #f66;
+		border-right: 0;
+	}
+}

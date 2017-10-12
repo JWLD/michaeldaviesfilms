@@ -20,10 +20,18 @@ section {
 .content {
   flex-direction: column;
   width: calc(100% - 19rem);
-  padding: 7vh 2rem;
+  padding: 7vmin 2rem;
   background-color: #262626;
 }
 
 .hidden {
   display: none;
+}
+
+// RESPONSIVE
+
+@media (max-width: 1024px) {
+  .content {
+		width: 100%;
+	}
 }

@@ -41,3 +41,11 @@
 	background-color: rgba(0, 0, 0, 0.5);
 	transition: 0.1s;
 }
+
+// RESPONSIVE
+
+@media (max-width: 1024px) {
+	.desktop-nav {
+		display: none;
+	}
+}

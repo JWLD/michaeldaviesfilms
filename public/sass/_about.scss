@@ -4,7 +4,7 @@
 
 .portrait-imdb-wrap {
   flex-direction: column;
-  margin-right: 2rem;
+  margin: 0 2rem 2rem 0;
 }
 
 // PORTRAIT
@@ -15,7 +15,6 @@
   border-radius: 100%;
   margin-bottom: 2rem;
 }
-
 
 .imdb-link {
 	width: 9rem;
@@ -47,4 +46,28 @@
 
 .about-text p:not(:last-child) {
   margin: 0 0 1.2rem 0;
+}
+
+// RESPONSIVE
+
+@media (max-width: 1024px) {
+  .sctn-about .content {
+    flex-wrap: wrap;
+  }
+
+  .portrait {
+    height: 50vw;
+    width: 50vw;
+  }
+
+  .portrait-imdb-wrap {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .portrait {
+    height: 60vw;
+    width: 60vw;
+  }
 }
