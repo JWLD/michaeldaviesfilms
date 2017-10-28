@@ -13,6 +13,7 @@ body, button, a, div, section, h2, p {
   border: 0;
   margin: 0;
   padding: 0;
+  border-radius: 0;
   box-sizing: border-box; }
 
 div, a, button, h2, span {
