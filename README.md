@@ -1,4 +1,4 @@
 # michaeldaviesfilms
 - Film writer / director portfolio [website](https://michaeldaviesfilms.herokuapp.com/)
-- Built with Express and Handlebars
+- Built with `express` and `handlebars`
 - Fully responsive design
