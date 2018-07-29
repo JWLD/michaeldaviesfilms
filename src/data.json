@@ -308,33 +308,48 @@
       "projects": [
         {
           "title": "PSYCHOPOMP",
-          "category": "Script",
+          "role": "Writer",
+          "location": "Rehearsed Reading, The Club Theatre RADA, 2015",
           "text":
-            "Paranormal romantic comedy. Supported by the Wellcome Trust. PSYCHOPOMP was longlisted in the BAFTA / Rocliffe New Writing Forum, shortlisted in the Euroscript 2016 Screenwriting Competition and has reached the quarterfinals in the 2016 PAGE International Screenwriting Awards, where it received a 'Recommend'. PSYCHOPOMP has been used by RADA in their character workshops, and is currently with Working Title."
+            "Adapted for public performance, and directed by theatre director Andrew Whyment, the reading confirmed the script is both funny and romantic."
         },
         {
-          "title": "THE CAPTIVE HEART",
-          "category": "Script",
+          "title": "WE BE SLUMBERING",
+          "role": "Director",
+          "location": "Vanbrugh Theatre RADA, 2016",
           "text":
-            "Romantic action adventure about a kidnapped bridegroom. THE CAPTIVE HEART received a 'Consider' in the 2016 PAGE International Screenwriting Awards. The script has been used by RADA in their character development workshops and is being developed with the Academy's dramaturge."
+            "Written by up-and-coming actor Callum McGowen. A moving blood-soaked tragedy, set in 1930's America, its sixteen characters were played by nine actors."
         },
-        {
-          "title": "THE WELSH GREAT ESCAPE",
-          "category": "Treatment",
-          "text":
-            "Comedy adventure based on the true story of the largest escape by German PoWs during WW2, which was the subject of my documentary (see below)."
-        },
-        {
-          "title": "ARTIFICIAL MOONLIGHT",
-          "category": "Treatment",
-          "text": "Sexual adventures, theft, murder and the birth of cinema."
-        },
-        {
-          "title": "THE RIDE",
-          "category": "Treatment",
-          "text":
-            "Low budget thriller about the bizarre consequences of a fatal accident in a theme park."
-        }
+				{
+					"title": "SABINA'S PASSION",
+					"role": "Director",
+					"location": "Rehearsed Reading, The Club Theatre RADA, 2017",
+					"text": "Written by Israel's pre-eminent playwright Joshua Sobol (<i>Ghetto</i> etc.). A complex, funny, and ultimately tragic drama about the relationship between Freud, Jung, and Sabina Spielrein."
+				},
+				{
+					"title": "A PLATE OF ELVERS",
+					"role": "Director",
+					"location": "Rehearsed Reading, The Club Theatre RADA, 2017",
+					"text": "The latest work from award-winning playwright Clare Bayley is a dreamlike, elliptical drama about sexual liberation, as recalled by a spiried woman who's succumbing to dementia."
+				},
+				{
+					"title": "THE DEATH OF THE HEART",
+					"role": "Director",
+					"location": "Rehearsed Reading, The Club Theatre RADA, 2017",
+					"text": "A new adaptation by Matthew Dowling of a novel by Elizabeth Bowen, set in London shortly before the Second World War, about a young woman's loss of innocence."
+				},
+				{
+					"title": "VERY NEARLY TOTALLY F*CKED",
+					"role": "Director",
+					"location": "RADA Festival, Gielgud Theatre RADA, 2017",
+					"text": "Written by and starring Emma Denly. An absurdist comedy about a self-obsessed millenial who gets locked out of her flat, and is forced to confront her demons."
+				},
+				{
+					"title": "SCAPEGOAT",
+					"role": "Director",
+					"location": "Rehearsed Reading, The Club Theatre RADA, 2018",
+					"text": "A complex re-interpretation of <i>Prometheus Bound</i>, set in a crisis-stricken Balkan country."
+				}
       ]
     },
     {

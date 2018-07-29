@@ -1,55 +1,57 @@
 .script-wrap {
-	max-width: 95%;
-	color: white;
-	font: 2rem Simplifica;
-	letter-spacing: 0.05rem;
+  max-width: 95%;
+  color: white;
+  font: 2rem Simplifica;
+  letter-spacing: 0.05rem;
 }
 
 .script-wrap:not(:first-child) {
-	margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .script-wrap:not(:last-child) {
-	padding-bottom: 3rem;
-	border-bottom: .1rem solid #333;
+  padding-bottom: 3rem;
+  border-bottom: 0.1rem solid #333;
 }
 
 .script-info-wrap {
-	flex-direction: column;
-	min-width: 31rem;
-	margin-right: 3rem;
-	padding-right: 2rem;
-	border-right: .5rem solid $red;
+  flex-direction: column;
+  min-width: 34rem;
+  height: 8rem;
+  margin-right: 3rem;
+  padding-right: 2rem;
+  border-right: 0.5rem solid $red;
 }
 
 .script-title {
-	font: 4rem Dense;
-	white-space: nowrap;
+  font: 4rem Dense;
+  white-space: nowrap;
+	margin-bottom: 0.5rem;
 }
 
 .script-text {
-	width: 71rem;
+  width: 71rem;
 }
 
 // RESPONSIVE
 
 @media (max-width: 900px) {
-	.script-wrap {
-		flex-direction: column;
-		max-width: 100%;
-	}
+  .script-wrap {
+    flex-direction: column;
+    max-width: 100%;
+  }
 
-	.script-info-wrap {
-		width: 100%;
-		margin: 0 0 3rem 0;
-	}
+  .script-info-wrap {
+    width: 100%;
+    margin: 0 0 3rem 0;
+  }
 
-	.script-text {
-		max-width: 90vw;
-	}
+  .script-text {
+    max-width: 90vw;
+  }
 
-	.script-wrap:nth-child(odd) .script-info-wrap {
-		border-left: 5px solid #f66;
-		border-right: 0;
-	}
+  .script-wrap:nth-child(odd) .script-info-wrap {
+    border-left: 5px solid #f66;
+    border-right: 0;
+  }
 }
