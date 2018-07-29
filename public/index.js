@@ -23,7 +23,7 @@ Array.from(document.querySelectorAll('.info-button')).forEach(function(button) {
 });
 
 // SLIDE IN VIDEOS
-Array.from(document.querySelectorAll('.video-wrap')).forEach(function(button) {
+Array.from(document.querySelectorAll('.video-wrap.active')).forEach(function(button) {
   button.addEventListener('click', function(e) {
     var videoBox = document.querySelector('#vimeo-' + button.dataset.key);
 

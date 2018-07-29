@@ -315,7 +315,7 @@ section {
   background-position: center;
   background-repeat: no-repeat; }
 
-.video-wrap:hover {
+.video-wrap.active:hover {
   cursor: pointer; }
 
 .video-wrap:hover .vid-overlay {
