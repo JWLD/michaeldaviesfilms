@@ -25,17 +25,20 @@
     {
       "title": "PSYCHOPOMP",
       "category": "Script",
-      "text": "Paranormal romantic comedy. Supported by the Wellcome Trust. PSYCHOPOMP was longlisted in the BAFTA / Rocliffe New Writing Forum, shortlisted in the Euroscript 2016 Screenwriting Competition and has reached the quarterfinals in the 2016 PAGE International Screenwriting Awards, where it received a 'Recommend'. PSYCHOPOMP has been used by RADA in their character workshops, and is currently with Working Title."
+      "text":
+        "Paranormal romantic comedy. Supported by the Wellcome Trust. PSYCHOPOMP was longlisted in the BAFTA / Rocliffe New Writing Forum, shortlisted in the Euroscript 2016 Screenwriting Competition and has reached the quarterfinals in the 2016 PAGE International Screenwriting Awards, where it received a 'Recommend'. PSYCHOPOMP has been used by RADA in their character workshops, and is currently with Working Title."
     },
     {
       "title": "THE CAPTIVE HEART",
       "category": "Script",
-      "text": "Romantic action adventure about a kidnapped bridegroom. THE CAPTIVE HEART received a 'Consider' in the 2016 PAGE International Screenwriting Awards. The script has been used by RADA in their character development workshops and is being developed with the Academy's dramaturge."
+      "text":
+        "Romantic action adventure about a kidnapped bridegroom. THE CAPTIVE HEART received a 'Consider' in the 2016 PAGE International Screenwriting Awards. The script has been used by RADA in their character development workshops and is being developed with the Academy's dramaturge."
     },
     {
       "title": "THE WELSH GREAT ESCAPE",
       "category": "Treatment",
-      "text": "Comedy adventure based on the true story of the largest escape by German PoWs during WW2, which was the subject of my documentary (see below)."
+      "text":
+        "Comedy adventure based on the true story of the largest escape by German PoWs during WW2, which was the subject of my documentary (see below)."
     },
     {
       "title": "ARTIFICIAL MOONLIGHT",
@@ -45,7 +48,8 @@
     {
       "title": "THE RIDE",
       "category": "Treatment",
-      "text": "Low budget thriller about the bizarre consequences of a fatal accident in a theme park."
+      "text":
+        "Low budget thriller about the bizarre consequences of a fatal accident in a theme park."
     }
   ],
   "portfolio": [
@@ -71,7 +75,8 @@
                 "award": "Audience Award"
               },
               {
-                "festival": "Dresden Internatinal Short Film Festival, Germany 2011",
+                "festival":
+                  "Dresden Internatinal Short Film Festival, Germany 2011",
                 "award": "Special Mention"
               },
               {
@@ -167,7 +172,8 @@
                 "award": "Best Short Film"
               },
               {
-                "festival": "Bratislava International Film Festival, Slovakia 2010",
+                "festival":
+                  "Bratislava International Film Festival, Slovakia 2010",
                 "award": "Best Short Film"
               },
               {
@@ -183,7 +189,8 @@
           "overlayInfo": "",
           "title": "Tracy Beaker Returns",
           "subtitle": "Series 1",
-          "blurb": "Reboot of the popular children's<br>series <i>TRACY BEAKER</i>.",
+          "blurb":
+            "Reboot of the popular children's<br>series <i>TRACY BEAKER</i>.",
           "awards": {
             "wins": [
               {
@@ -313,13 +320,10 @@
           "overlayInfo": "Excerpts",
           "title": "The National Trust",
           "subtitle": "",
-          "blurb": "--- MISSING ---",
+          "blurb":
+            "Site specific stories with unusually high production values.",
           "moreInfo": {
-            "episodes": [
-              "THE WORKHOUSE",
-              "FRANCIS DRAKE",
-              "ISAAC NEWTON"
-            ]
+            "episodes": ["THE WORKHOUSE", "FRANCIS DRAKE", "ISAAC NEWTON"]
           }
         }
       ]
@@ -334,7 +338,8 @@
           "overlayInfo": "Episode 4:&nbsp;<i>Ireland</i>",
           "title": "Oz & James Drink To Britain",
           "subtitle": "Series Producer & Director",
-          "blurb": "Oz Clarke and James May's alcohol-fuelled road trip bromance deepens in the last and most successful of the series.",
+          "blurb":
+            "Oz Clarke and James May's alcohol-fuelled road trip bromance deepens in the last and most successful of the series.",
           "awards": {
             "wins": [
               {
@@ -361,7 +366,8 @@
           "overlayInfo": "",
           "title": "Britain's Lost Routes<br>With Griff Rhys Jones",
           "subtitle": "",
-          "blurb": "A haystack on a Thames barge, with the irrepressible GRJ at the helm.",
+          "blurb":
+            "A haystack on a Thames barge, with the irrepressible GRJ at the helm.",
           "awards": {
             "wins": [
               {
@@ -383,7 +389,8 @@
           "overlayInfo": "Excerpts",
           "title": "Snakemaster",
           "subtitle": "Series",
-          "blurb": "The bravest man in television tackles the world's deadliest snakes. Filmed on location in Borneo, Peru, Egypt, Sudan and South Africa.",
+          "blurb":
+            "The bravest man in television tackles the world's deadliest snakes. Filmed on location in Borneo, Peru, Egypt, Sudan and South Africa.",
           "moreInfo": {
             "distribution": {
               "company": "Tigress Productions",
@@ -417,9 +424,7 @@
               "company": "Tigress Productions / IMG",
               "details": "60 min Discovery / Five"
             },
-            "episodes": [
-              "AUSTRALIA'S LOST EDEN"
-            ]
+            "episodes": ["AUSTRALIA'S LOST EDEN"]
           }
         },
         {
@@ -428,7 +433,8 @@
           "overlayInfo": "",
           "title": "Shark Island",
           "subtitle": "Series Producer & Director",
-          "blurb": "Up cose and personal with the hammerhead<br>sharks of Cocos Island.",
+          "blurb":
+            "Up cose and personal with the hammerhead<br>sharks of Cocos Island.",
           "moreInfo": {
             "distribution": {
               "company": "Tigress Productions / IMG",
@@ -448,7 +454,8 @@
           "overlayInfo": "Excerpts",
           "title": "The War Behind The Wire",
           "subtitle": "Documentary Series",
-          "blurb": "Extraordinary stories of captivity and escape from German and Italian prison camps during WW2, told by the men who took part.",
+          "blurb":
+            "Extraordinary stories of captivity and escape from German and Italian prison camps during WW2, told by the men who took part.",
           "awards": {
             "nominations": [
               {
@@ -463,10 +470,7 @@
               "details": "2 x 60 min BBC2",
               "audience": "Audience 4 million"
             },
-            "episodes": [
-              "THE GREAT ESCAPE",
-              "THE ROAD TO COLDITZ"
-            ]
+            "episodes": ["THE GREAT ESCAPE", "THE ROAD TO COLDITZ"]
           }
         },
         {
@@ -475,7 +479,8 @@
           "overlayInfo": "Excerpts",
           "title": "The Red Baron",
           "subtitle": "Documentary",
-          "blurb": "The life and death of the notorious WW1 fighter pilot, told by members of his family and descendants of those he shot down.",
+          "blurb":
+            "The life and death of the notorious WW1 fighter pilot, told by members of his family and descendants of those he shot down.",
           "moreInfo": {
             "distribution": {
               "company": "Hartswood Films",
@@ -489,16 +494,14 @@
           "overlayInfo": "Excerpts",
           "title": "Barnardo's Children",
           "subtitle": "Documentary Series",
-          "blurb": "Stories of love, loss and hope, and the tragic consequences of the ‘policy of secrecy’ that blighted the lives of many Barnardo’s Children.",
+          "blurb":
+            "Stories of love, loss and hope, and the tragic consequences of the ‘policy of secrecy’ that blighted the lives of many Barnardo’s Children.",
           "moreInfo": {
             "distribution": {
               "company": "2 x 50 min BBC1",
               "details": "Audience 7 million"
             },
-            "episodes": [
-              "THE LARGEST FAMILY IN THE WORLD",
-              "A NEW MUM & DAD"
-            ]
+            "episodes": ["THE LARGEST FAMILY IN THE WORLD", "A NEW MUM & DAD"]
           }
         },
         {
@@ -521,7 +524,8 @@
           "overlayInfo": "Excerpts",
           "title": "Jason, Jim & Me",
           "subtitle": "Documentary",
-          "blurb": "The life, loves, and mysterious death of pioneer aviatrix Amy Johnson.",
+          "blurb":
+            "The life, loves, and mysterious death of pioneer aviatrix Amy Johnson.",
           "moreInfo": {
             "distribution": {
               "company": "Lion Television",
@@ -535,7 +539,8 @@
           "overlayInfo": "Excerpts",
           "title": "Officers & Gentlemen",
           "subtitle": "Documentary",
-          "blurb": "The remarkable stories of nine Chelsea Pensioners who took part in battles that changed history. Made for Remembrance Day.",
+          "blurb":
+            "The remarkable stories of nine Chelsea Pensioners who took part in battles that changed history. Made for Remembrance Day.",
           "moreInfo": {
             "distribution": {
               "company": "Hartswood Films",
@@ -549,7 +554,8 @@
           "overlayInfo": "Excerpts",
           "title": "Going To Chelsea",
           "subtitle": "Documentary",
-          "blurb": "Observational comedy documentary following garden designer Stephen Woodham’s year-long preparation of a garden for the Chelsea Flower Show.",
+          "blurb":
+            "Observational comedy documentary following garden designer Stephen Woodham’s year-long preparation of a garden for the Chelsea Flower Show.",
           "moreInfo": {
             "distribution": {
               "company": "Hartswood Films",
@@ -577,7 +583,8 @@
           "overlayInfo": "",
           "title": "Ten Pound Poms",
           "subtitle": "Documentary",
-          "blurb": "Heart-breaking stories of post-war<br>emigration to Australia.",
+          "blurb":
+            "Heart-breaking stories of post-war<br>emigration to Australia.",
           "moreInfo": {
             "distribution": {
               "company": "Touch Productions",
@@ -592,7 +599,8 @@
           "overlayInfo": "",
           "title": "Royal Wedding Bells",
           "subtitle": "Documentary",
-          "blurb": "A behind-the-scenes look at the bizarre<br>preparations for a Royal Wedding.",
+          "blurb":
+            "A behind-the-scenes look at the bizarre<br>preparations for a Royal Wedding.",
           "moreInfo": {
             "distribution": {
               "company": "RDF",
@@ -621,7 +629,8 @@
           "overlayInfo": "",
           "title": "The Secret Millionaire",
           "subtitle": "Documentary",
-          "blurb": "Effervescent former nurse, Roisin Isaacs,<br>gives it all away in Dundee.",
+          "blurb":
+            "Effervescent former nurse, Roisin Isaacs,<br>gives it all away in Dundee.",
           "moreInfo": {
             "distribution": {
               "company": "RDF",
