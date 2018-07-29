@@ -35,7 +35,7 @@
 </section>
 
 <!-- ABOUT -->
-<h2 class="divider" id="sctn-about">ABOUT</h2>
+{{> divider id="about" text="ABOUT"}}
 
 <section class="sctn-about">
   <div class="content">
@@ -61,7 +61,7 @@
 </section>
 
 <!-- SCRIPTS -->
-<h2 class="divider" id="sctn-scripts">IN DEVELOPMENT</h2>
+{{> divider id="scripts" text="IN DEVELOPMENT"}}
 
 <section class="sctn-scripts">
   <div class="content">
@@ -79,11 +79,11 @@
 
 <!-- PORTFOLIO -->
 {{#each portfolio}}
-  <h2 class="divider" id="sctn-{{key}}">{{this.category}}</h2>
+	{{> divider id=key text=category}}
 
   <section>
     <div class="content">
-      {{#each this.films}}
+      {{#each films}}
         {{> videoBlock this}}
       {{/each}}
     </div>
