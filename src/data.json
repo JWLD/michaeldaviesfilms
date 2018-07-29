@@ -4,18 +4,18 @@
       "title": "ABOUT",
       "target": "about"
     },
-		{
-			"title": "DRAMA",
-			"target": "drama"
-		},
-		{
-			"title": "THEATRE",
-			"target": "theatre"
-		},
-		{
-			"title": "FEATURES",
-			"target": "features"
-		},
+    {
+      "title": "DRAMA",
+      "target": "drama"
+    },
+    {
+      "title": "THEATRE",
+      "target": "theatre"
+    },
+    {
+      "title": "FEATURES",
+      "target": "features"
+    },
     {
       "title": "FACTUAL",
       "target": "factual"
@@ -23,37 +23,6 @@
     {
       "title": "DOCUMENTARY",
       "target": "documentary"
-    }
-  ],
-  "scripts": [
-    {
-      "title": "PSYCHOPOMP",
-      "category": "Script",
-      "text":
-        "Paranormal romantic comedy. Supported by the Wellcome Trust. PSYCHOPOMP was longlisted in the BAFTA / Rocliffe New Writing Forum, shortlisted in the Euroscript 2016 Screenwriting Competition and has reached the quarterfinals in the 2016 PAGE International Screenwriting Awards, where it received a 'Recommend'. PSYCHOPOMP has been used by RADA in their character workshops, and is currently with Working Title."
-    },
-    {
-      "title": "THE CAPTIVE HEART",
-      "category": "Script",
-      "text":
-        "Romantic action adventure about a kidnapped bridegroom. THE CAPTIVE HEART received a 'Consider' in the 2016 PAGE International Screenwriting Awards. The script has been used by RADA in their character development workshops and is being developed with the Academy's dramaturge."
-    },
-    {
-      "title": "THE WELSH GREAT ESCAPE",
-      "category": "Treatment",
-      "text":
-        "Comedy adventure based on the true story of the largest escape by German PoWs during WW2, which was the subject of my documentary (see below)."
-    },
-    {
-      "title": "ARTIFICIAL MOONLIGHT",
-      "category": "Treatment",
-      "text": "Sexual adventures, theft, murder and the birth of cinema."
-    },
-    {
-      "title": "THE RIDE",
-      "category": "Treatment",
-      "text":
-        "Low budget thriller about the bizarre consequences of a fatal accident in a theme park."
     }
   ],
   "portfolio": [
@@ -329,6 +298,42 @@
           "moreInfo": {
             "episodes": ["THE WORKHOUSE", "FRANCIS DRAKE", "ISAAC NEWTON"]
           }
+        }
+      ]
+    },
+    {
+      "category": "DRAMA - THEATRE",
+      "key": "theatre",
+      "isText": true,
+      "projects": [
+        {
+          "title": "PSYCHOPOMP",
+          "category": "Script",
+          "text":
+            "Paranormal romantic comedy. Supported by the Wellcome Trust. PSYCHOPOMP was longlisted in the BAFTA / Rocliffe New Writing Forum, shortlisted in the Euroscript 2016 Screenwriting Competition and has reached the quarterfinals in the 2016 PAGE International Screenwriting Awards, where it received a 'Recommend'. PSYCHOPOMP has been used by RADA in their character workshops, and is currently with Working Title."
+        },
+        {
+          "title": "THE CAPTIVE HEART",
+          "category": "Script",
+          "text":
+            "Romantic action adventure about a kidnapped bridegroom. THE CAPTIVE HEART received a 'Consider' in the 2016 PAGE International Screenwriting Awards. The script has been used by RADA in their character development workshops and is being developed with the Academy's dramaturge."
+        },
+        {
+          "title": "THE WELSH GREAT ESCAPE",
+          "category": "Treatment",
+          "text":
+            "Comedy adventure based on the true story of the largest escape by German PoWs during WW2, which was the subject of my documentary (see below)."
+        },
+        {
+          "title": "ARTIFICIAL MOONLIGHT",
+          "category": "Treatment",
+          "text": "Sexual adventures, theft, murder and the birth of cinema."
+        },
+        {
+          "title": "THE RIDE",
+          "category": "Treatment",
+          "text":
+            "Low budget thriller about the bizarre consequences of a fatal accident in a theme park."
         }
       ]
     },
