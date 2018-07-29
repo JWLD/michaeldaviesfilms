@@ -6,7 +6,11 @@
 					<div class="script-title">{{title}}</div>
 					<div><i>{{role}}</i></div>
 				</div>
-				<p class="script-text">{{location}}.<br><br>{{{text}}}</p>
+				<p class="script-text">
+					{{#if location}}
+						{{location}}.<br><br>
+					{{/if}}
+					{{{text}}}</p>
 			</div>
 		{{/each}}
 	</div>

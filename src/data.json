@@ -320,36 +320,60 @@
           "text":
             "Written by up-and-coming actor Callum McGowen. A moving blood-soaked tragedy, set in 1930's America, its sixteen characters were played by nine actors."
         },
-				{
-					"title": "SABINA'S PASSION",
-					"role": "Director",
-					"location": "Rehearsed Reading, The Club Theatre RADA, 2017",
-					"text": "Written by Israel's pre-eminent playwright Joshua Sobol (<i>Ghetto</i> etc.). A complex, funny, and ultimately tragic drama about the relationship between Freud, Jung, and Sabina Spielrein."
-				},
-				{
-					"title": "A PLATE OF ELVERS",
-					"role": "Director",
-					"location": "Rehearsed Reading, The Club Theatre RADA, 2017",
-					"text": "The latest work from award-winning playwright Clare Bayley is a dreamlike, elliptical drama about sexual liberation, as recalled by a spiried woman who's succumbing to dementia."
-				},
-				{
-					"title": "THE DEATH OF THE HEART",
-					"role": "Director",
-					"location": "Rehearsed Reading, The Club Theatre RADA, 2017",
-					"text": "A new adaptation by Matthew Dowling of a novel by Elizabeth Bowen, set in London shortly before the Second World War, about a young woman's loss of innocence."
-				},
-				{
-					"title": "VERY NEARLY TOTALLY F*CKED",
-					"role": "Director",
-					"location": "RADA Festival, Gielgud Theatre RADA, 2017",
-					"text": "Written by and starring Emma Denly. An absurdist comedy about a self-obsessed millenial who gets locked out of her flat, and is forced to confront her demons."
-				},
-				{
-					"title": "SCAPEGOAT",
-					"role": "Director",
-					"location": "Rehearsed Reading, The Club Theatre RADA, 2018",
-					"text": "A complex re-interpretation of <i>Prometheus Bound</i>, set in a crisis-stricken Balkan country."
-				}
+        {
+          "title": "SABINA'S PASSION",
+          "role": "Director",
+          "location": "Rehearsed Reading, The Club Theatre RADA, 2017",
+          "text":
+            "Written by Israel's pre-eminent playwright Joshua Sobol (<i>Ghetto</i> etc.). A complex, funny, and ultimately tragic drama about the relationship between Freud, Jung, and Sabina Spielrein."
+        },
+        {
+          "title": "A PLATE OF ELVERS",
+          "role": "Director",
+          "location": "Rehearsed Reading, The Club Theatre RADA, 2017",
+          "text":
+            "The latest work from award-winning playwright Clare Bayley is a dreamlike, elliptical drama about sexual liberation, as recalled by a spiried woman who's succumbing to dementia."
+        },
+        {
+          "title": "THE DEATH OF THE HEART",
+          "role": "Director",
+          "location": "Rehearsed Reading, The Club Theatre RADA, 2017",
+          "text":
+            "A new adaptation by Matthew Dowling of a novel by Elizabeth Bowen, set in London shortly before the Second World War, about a young woman's loss of innocence."
+        },
+        {
+          "title": "VERY NEARLY TOTALLY F*CKED",
+          "role": "Director",
+          "location": "RADA Festival, Gielgud Theatre RADA, 2017",
+          "text":
+            "Written by and starring Emma Denly. An absurdist comedy about a self-obsessed millenial who gets locked out of her flat, and is forced to confront her demons."
+        },
+        {
+          "title": "SCAPEGOAT",
+          "role": "Director",
+          "location": "Rehearsed Reading, The Club Theatre RADA, 2018",
+          "text":
+            "A complex re-interpretation of <i>Prometheus Bound</i>, set in a crisis-stricken Balkan country."
+        }
+      ]
+    },
+    {
+      "category": "FEATURE FILMS - IN DEVELOPMENT",
+      "key": "features",
+      "isText": true,
+      "projects": [
+        {
+          "title": "PSYCHOPOMP",
+          "role": "Writer",
+          "text":
+            "Paranormal romantic comedy. Supported by the Wellcome Trust. PSYCHOPOMP received a 'Recommend' in the PAGE International Screenwriting Awards 2016 (awarded to the top 1% of over 6000 entries). PSYCHOPOMP was given a rehearsed reading at RADA and has been used in their character development workshops."
+        },
+        {
+          "title": "THE CAPTIVE HEART",
+          "role": "Writer",
+          "text":
+            "Romantic adventure based on a true story. THE CAPTIVE HEART received a 'Consider' in the PAGE International Screenwriting Awards 2016, and has been used by RADA in their character development workshops. Michael re-wrote the script at the PageCraft 2017 Screenwriting Retreat in Italy, and the new version is being given a rehearsed reading at RADA in September."
+        }
       ]
     },
     {
