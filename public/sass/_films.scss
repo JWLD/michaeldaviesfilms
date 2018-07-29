@@ -210,11 +210,11 @@
 	}
 
 	.video-info-wrap {
-		flex-direction: column !important;
+		flex-direction: column-reverse !important;
 	}
 
 	.video-wrap {
-		margin: 0 0 2rem 0 !important;
+		margin: 2rem 0 0 0 !important;
 		max-width: 90vw;
 	}
 
