@@ -60,32 +60,13 @@
   </div>
 </section>
 
-<!-- SCRIPTS -->
-{{> divider id="scripts" text="IN DEVELOPMENT"}}
-
-<section class="sctn-scripts">
-  <div class="content">
-    {{#each scripts}}
-      <div class="script-wrap">
-        <div class="script-info-wrap">
-          <div class="script-title">{{title}}</div>
-          <div>{{category}}</div>
-        </div>
-        <p class="script-text">{{text}}</p>
-      </div>
-    {{/each}}
-  </div>
-</section>
-
 <!-- PORTFOLIO -->
 {{#each portfolio}}
 	{{> divider id=key text=category}}
 
-  <section>
-    <div class="content">
-      {{#each films}}
-        {{> videoBlock this}}
-      {{/each}}
-    </div>
-  </section>
+	{{#if isText}}
+		{{> text_block this}}
+	{{else}}
+    {{> media_block this}}
+	{{/if}}
 {{/each}}
