@@ -41,7 +41,7 @@ Array.from(document.querySelectorAll('.video-wrap')).forEach(function(button) {
 Array.from(document.querySelectorAll('.scroll')).forEach(function(button) {
   button.addEventListener('click', function() {
     var target = document.querySelector('#sctn-' + button.dataset.target);
-    document.body.scrollTop = target.offsetTop;
+		window.scrollTo(0, target.offsetTop)
 
     // if mobile menu, then toggle
     if (!document.querySelector('.mobile-menu').classList.contains('hide-menu')) {
@@ -51,7 +51,7 @@ Array.from(document.querySelectorAll('.scroll')).forEach(function(button) {
 });
 
 document.querySelector('.logo.desktop').addEventListener('click', function() {
-  document.body.scrollTop = 0;
+	window.scrollTo(0, 0)
 });
 
 // TOGGLE MOBILE MENU
