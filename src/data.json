@@ -4,14 +4,18 @@
       "title": "ABOUT",
       "target": "about"
     },
-    {
-      "title": "WRITING",
-      "target": "scripts"
-    },
-    {
-      "title": "DRAMA",
-      "target": "drama"
-    },
+		{
+			"title": "DRAMA",
+			"target": "drama"
+		},
+		{
+			"title": "THEATRE",
+			"target": "theatre"
+		},
+		{
+			"title": "FEATURES",
+			"target": "features"
+		},
     {
       "title": "FACTUAL",
       "target": "factual"
