@@ -231,6 +231,14 @@
     font-size: 3.5rem;
   }
 
+  .film-blurb {
+    width: 95%;
+
+    br {
+      display: none;
+    }
+  }
+
   .info-wrap {
     max-width: 90vw;
   }

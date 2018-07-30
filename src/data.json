@@ -36,7 +36,7 @@
           "overlayInfo": "Excerpt",
           "title": "Love At First Sight",
           "subtitle": "Short Film",
-          "blurb": "Romantic comedy starring John Hurt<br>and Phyllida Law.",
+          "blurb": "Romantic comedy starring John Hurt <br>and Phyllida Law.",
           "awards": {
             "wins": [
               {
@@ -163,7 +163,7 @@
           "title": "Tracy Beaker Returns",
           "subtitle": "Series 1",
           "blurb":
-            "Reboot of the popular children's<br>series <i>TRACY BEAKER</i>.",
+            "Reboot of the popular children's <br>series <i>TRACY BEAKER</i>.",
           "awards": {
             "wins": [
               {
@@ -436,7 +436,7 @@
           "key": "griff",
           "vimeoId": "",
           "overlayInfo": "",
-          "title": "Britain's Lost Routes<br>With Griff Rhys Jones",
+          "title": "Britain's Lost Routes <br>With Griff Rhys Jones",
           "subtitle": "",
           "blurb":
             "A haystack on a Thames barge, with the irrepressible GRJ at the helm.",
@@ -482,7 +482,7 @@
           "overlayInfo": "",
           "title": "Austin Stevens Adventures",
           "subtitle": "",
-          "blurb": "One last outing for the globetrotting<br>snake hunter.",
+          "blurb": "One last outing for the globetrotting <br>snake hunter.",
           "awards": {
             "wins": [
               {
@@ -506,7 +506,7 @@
           "title": "Shark Island",
           "subtitle": "Series Producer & Director",
           "blurb":
-            "Up cose and personal with the hammerhead<br>sharks of Cocos Island.",
+            "Up cose and personal with the hammerhead <br>sharks of Cocos Island.",
           "moreInfo": {
             "distribution": {
               "company": "Tigress Productions / IMG",
@@ -582,7 +582,7 @@
           "overlayInfo": "Excerpts",
           "title": "The Welsh Great Escape",
           "subtitle": "Drama Documentary",
-          "blurb": "The largest escape by German<br>POWs during WW2.",
+          "blurb": "The largest escape by German <br>POWs during WW2.",
           "moreInfo": {
             "distribution": {
               "company": "Hartswood Films",
@@ -656,7 +656,7 @@
           "title": "Ten Pound Poms",
           "subtitle": "Documentary",
           "blurb":
-            "Heart-breaking stories of post-war<br>emigration to Australia.",
+            "Heart-breaking stories of post-war <br>emigration to Australia.",
           "moreInfo": {
             "distribution": {
               "company": "Touch Productions",
@@ -672,7 +672,7 @@
           "title": "Royal Wedding Bells",
           "subtitle": "Documentary",
           "blurb":
-            "A behind-the-scenes look at the bizarre<br>preparations for a Royal Wedding.",
+            "A behind-the-scenes look at the bizarre <br>preparations for a Royal Wedding.",
           "moreInfo": {
             "distribution": {
               "company": "RDF",
@@ -687,7 +687,7 @@
           "overlayInfo": "Excerpts",
           "title": "A Dinosaur In Hollywood",
           "subtitle": "Comedy Documentary",
-          "blurb": "A biopic of Tyrannosaurus Rex.<br>Lots of CGI.",
+          "blurb": "A biopic of Tyrannosaurus Rex. <br>Lots of CGI.",
           "moreInfo": {
             "distribution": {
               "company": "Impossible Pictures",
@@ -702,7 +702,7 @@
           "title": "The Secret Millionaire",
           "subtitle": "Documentary",
           "blurb":
-            "Effervescent former nurse, Roisin Isaacs,<br>gives it all away in Dundee.",
+            "Effervescent former nurse, Roisin Isaacs, <br>gives it all away in Dundee.",
           "moreInfo": {
             "distribution": {
               "company": "RDF",

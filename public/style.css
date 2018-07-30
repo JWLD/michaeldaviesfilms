@@ -467,6 +467,10 @@ section {
       display: none; }
   .film-title {
     font-size: 3.5rem; }
+  .film-blurb {
+    width: 95%; }
+    .film-blurb br {
+      display: none; }
   .info-wrap {
     max-width: 90vw; }
   .award-wrap {
