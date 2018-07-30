@@ -366,13 +366,37 @@
           "title": "PSYCHOPOMP",
           "role": "Writer",
           "text":
-            "Paranormal romantic comedy. Supported by the Wellcome Trust. PSYCHOPOMP received a 'Recommend' in the PAGE International Screenwriting Awards 2016 (awarded to the top 1% of over 6000 entries). PSYCHOPOMP was given a rehearsed reading at RADA and has been used in their character development workshops."
+            "Paranormal romantic comedy. Supported by the Wellcome Trust. PSYCHOPOMP received a 'Recommend' in the PAGE International Screenwriting Awards 2016 (awarded to the top 1% of over 6000 entries). PSYCHOPOMP was given a rehearsed reading at RADA and has been used in their character development workshops.",
+          "awards": [
+            {
+              "award": "Longlisted",
+              "festival": "BAFTA / Rocliffe New Writing Forum 2014"
+            },
+            {
+              "award": "Shortlisted",
+              "festival": "Euroscript Screenwriting Competition 2016"
+            },
+            {
+              "award": "Quarter-Finalist",
+              "festival": "PAGE International Screenwriting Awards 2016"
+            },
+            {
+              "award": "Finalist",
+              "festival": "Roadmap Writing Contest 2017"
+            }
+          ]
         },
         {
           "title": "THE CAPTIVE HEART",
           "role": "Writer",
           "text":
-            "Romantic adventure based on a true story. THE CAPTIVE HEART received a 'Consider' in the PAGE International Screenwriting Awards 2016, and has been used by RADA in their character development workshops. Michael re-wrote the script at the PageCraft 2017 Screenwriting Retreat in Italy, and the new version is being given a rehearsed reading at RADA in September."
+            "Romantic adventure based on a true story. THE CAPTIVE HEART received a 'Consider' in the PAGE International Screenwriting Awards 2016, and has been used by RADA in their character development workshops. Michael re-wrote the script at the PageCraft 2017 Screenwriting Retreat in Italy, and the new version is being given a rehearsed reading at RADA in September.",
+          "awards": [
+            {
+              "award": "Quarter-Finalist",
+              "festival": "American Zoetrope Screenplay Contest 2016"
+            }
+          ]
         }
       ]
     },
