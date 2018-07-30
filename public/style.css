@@ -465,6 +465,8 @@ section {
     max-width: 90vw; }
     .video-wrap.inactive {
       display: none; }
+  .film-title {
+    font-size: 3.5rem; }
   .info-wrap {
     max-width: 90vw; }
   .award-wrap {
