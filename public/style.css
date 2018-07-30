@@ -282,12 +282,15 @@ section {
     flex-direction: column;
     max-width: 100%; }
   .script-info-wrap {
+    min-width: 0;
     width: 100%;
     margin: 0 0 3rem 0; }
+  .script-title {
+    font-size: 3rem; }
   .script-text {
     max-width: 90vw; }
   .script-wrap:nth-child(odd) .script-info-wrap {
-    border-left: 5px solid #f66;
+    border-left: 0.5rem solid #f66;
     border-right: 0; } }
 
 .video-block {
