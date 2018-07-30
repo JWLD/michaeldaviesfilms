@@ -452,11 +452,16 @@ section {
 @media (max-width: 900px) {
   .video-block {
     max-width: 90vw; }
+    .video-block:nth-child(even) .info-wrap {
+      border-left: 0;
+      border-right: 0.5rem solid #f66; }
   .video-info-wrap {
     flex-direction: column !important; }
   .video-wrap {
     margin: 0 0 2rem 0 !important;
     max-width: 90vw; }
+    .video-wrap.inactive {
+      display: none; }
   .info-wrap {
     max-width: 90vw; }
   .award-wrap {

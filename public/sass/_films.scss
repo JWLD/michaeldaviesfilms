@@ -207,6 +207,11 @@
 @media (max-width: 900px) {
   .video-block {
     max-width: 90vw;
+
+    &:nth-child(even) .info-wrap {
+      border-left: 0;
+      border-right: 0.5rem solid $red;
+    }
   }
 
   .video-info-wrap {
@@ -216,6 +221,10 @@
   .video-wrap {
     margin: 0 0 2rem 0 !important;
     max-width: 90vw;
+
+    &.inactive {
+      display: none;
+    }
   }
 
   .info-wrap {
