@@ -355,7 +355,7 @@ section {
   right: 0;
   height: 4rem;
   width: 6rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   margin: 1rem;
   color: rgba(255, 255, 255, 0.25);
   background-color: rgba(0, 0, 0, 0.5);
@@ -378,7 +378,7 @@ section {
   text-transform: uppercase; }
 
 .film-subtitle {
-  margin-top: .5rem; }
+  margin-top: 0.5rem; }
 
 .film-blurb {
   text-align: center;
@@ -387,8 +387,8 @@ section {
 .info-button {
   width: 10rem;
   padding: 1rem;
-  margin: 0 .7rem;
-  border-radius: .3rem;
+  margin: 0 0.7rem;
+  border-radius: 0.3rem;
   color: white;
   background-color: #1a1a1a;
   font: 2rem Simplifica;
@@ -404,7 +404,7 @@ section {
   height: 0;
   overflow: scroll;
   margin-top: 3rem;
-  border-top: .1rem solid #333;
+  border-top: 0.1rem solid #333;
   background-color: #222;
   transition: 0.5s; }
 
@@ -423,7 +423,7 @@ section {
   text-align: center; }
 
 .award-head {
-  margin: 1rem 0 .5rem 0;
+  margin: 1rem 0 0.5rem 0;
   font: 30px Dense;
   color: white; }
 
@@ -453,12 +453,12 @@ section {
   .video-block {
     max-width: 90vw; }
   .video-info-wrap {
-    flex-direction: column-reverse !important; }
+    flex-direction: column !important; }
   .video-wrap {
-    margin: 2rem 0 0 0 !important;
+    margin: 0 0 2rem 0 !important;
     max-width: 90vw; }
   .info-wrap {
     max-width: 90vw; }
   .award-wrap {
     height: auto;
-    margin: .5rem 0; } }
+    margin: 0.5rem 0; } }

@@ -1,15 +1,15 @@
 // WRAP
 
 .video-block {
-	flex-direction: column;
-	justify-content: space-between;
-	color: white;
-	font: 2rem Simplifica;
-	letter-spacing: 0.05rem;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font: 2rem Simplifica;
+  letter-spacing: 0.05rem;
 }
 
 .video-block:not(:last-child) {
-	margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .video-block:nth-child(even) .video-info-wrap {
@@ -17,21 +17,21 @@
 }
 
 .video-block:nth-child(even) .video-wrap {
-	margin: 0 0 0 5vw;
+  margin: 0 0 0 5vw;
 }
 
 // VIDEO BOX
 
 .video-wrap {
-	position: relative;
-	width: 40rem;
-	height: 22.5rem;
+  position: relative;
+  width: 40rem;
+  height: 22.5rem;
   margin-right: 5vw;
-	overflow: hidden;
-	background-color: #222;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #222;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .video-wrap.active:hover {
@@ -39,22 +39,22 @@
 }
 
 .video-wrap:hover .vid-overlay {
-	opacity: 1;
+  opacity: 1;
 }
 
 .video-box {
-	position: absolute;
-	top: 0;
-	left: -40rem;
-	z-index: 1;
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: -40rem;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  transition: 0.5s;
 }
 
 .show-video {
-	left: 0;
+  left: 0;
 }
 
 .vid-overlay {
@@ -72,27 +72,27 @@
 
 .play-button {
   display: flex;
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 4rem;
-	width: 6rem;
-	border-radius: .5rem;
-	margin: 1rem;
-	color: rgba(255, 255, 255, 0.25);
-	background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 4rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 3rem;
 }
 
 // INFO BOX
 
 .info-wrap {
-	flex-direction: column;
-	justify-content: space-between;
-	height: 22.5rem;
-	width: 40rem;
-	border-left: .5rem solid $red;
-	padding: 0 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 22.5rem;
+  width: 40rem;
+  border-left: 0.5rem solid $red;
+  padding: 0 1rem;
 }
 
 .title-wrap {
@@ -100,130 +100,130 @@
 }
 
 .film-title {
-	font: 4rem Dense;
-	text-align: center;
-	text-transform: uppercase;
+  font: 4rem Dense;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .film-subtitle {
-	margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .film-blurb {
-	text-align: center;
-	width: 85%;
+  text-align: center;
+  width: 85%;
 }
 
 .info-button {
-	width: 10rem;
-	padding: 1rem;
-	margin: 0 .7rem;
-  border-radius: .3rem;
-	color: white;
-	background-color: #1a1a1a;
-	font: 2rem Simplifica;
-	letter-spacing: 0.05rem;
+  width: 10rem;
+  padding: 1rem;
+  margin: 0 0.7rem;
+  border-radius: 0.3rem;
+  color: white;
+  background-color: #1a1a1a;
+  font: 2rem Simplifica;
+  letter-spacing: 0.05rem;
 }
 
 .info-button:hover {
-	background-color: #333;
+  background-color: #333;
 }
 
 // EXTRA DETAILS PANEL
 
 .extra-panel {
-	position: relative;
-	align-items: flex-start;
-	width: 100%;
-	height: 0;
-	overflow: scroll;
-	margin-top: 3rem;
-	border-top: .1rem solid #333;
-	background-color: #222;
-	transition: 0.5s;
+  position: relative;
+  align-items: flex-start;
+  width: 100%;
+  height: 0;
+  overflow: scroll;
+  margin-top: 3rem;
+  border-top: 0.1rem solid #333;
+  background-color: #222;
+  transition: 0.5s;
 }
 
 .extra-panel:not(:last-child) {
-	margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .extra {
-	flex-direction: column;
-	min-height: 22.5rem;
-	width: 100%;
-	max-width: 70rem;
-	padding: 1rem 0 2rem 0;
+  flex-direction: column;
+  min-height: 22.5rem;
+  width: 100%;
+  max-width: 70rem;
+  padding: 1rem 0 2rem 0;
 }
 
 .extra span {
-	margin: 0 1rem;
-	text-align: center;
+  margin: 0 1rem;
+  text-align: center;
 }
 
 // AWARDS
 
 .award-head {
-  margin: 1rem 0 .5rem 0;
+  margin: 1rem 0 0.5rem 0;
   font: 30px Dense;
   color: white;
 }
 
 .award-wrap {
-	height: 3rem;
-	width: 100%;
+  height: 3rem;
+  width: 100%;
 }
 
 .extra.awards span {
-	width: 50%;
+  width: 50%;
 }
 
 .extra.details span {
-	height: 3rem;
+  height: 3rem;
 }
 
 // TOGGLES
 
 .panel-open {
-	height: 22.5rem;
+  height: 22.5rem;
 }
 
 // RESPONSIVE
 
 @media (max-width: 1100px) {
-	.video-wrap {
-		margin-right: 4vw;
-		width: 37rem;
-	}
+  .video-wrap {
+    margin-right: 4vw;
+    width: 37rem;
+  }
 
-	.video-block:nth-child(even) .video-wrap {
-		margin: 0 0 0 4vw;
-	}
+  .video-block:nth-child(even) .video-wrap {
+    margin: 0 0 0 4vw;
+  }
 
-	.info-wrap {
-		width: 37rem;
-	}
+  .info-wrap {
+    width: 37rem;
+  }
 }
 
 @media (max-width: 900px) {
-	.video-block {
-		max-width: 90vw;
-	}
+  .video-block {
+    max-width: 90vw;
+  }
 
-	.video-info-wrap {
-		flex-direction: column-reverse !important;
-	}
+  .video-info-wrap {
+    flex-direction: column !important;
+  }
 
-	.video-wrap {
-		margin: 2rem 0 0 0 !important;
-		max-width: 90vw;
-	}
+  .video-wrap {
+    margin: 0 0 2rem 0 !important;
+    max-width: 90vw;
+  }
 
-	.info-wrap {
-		max-width: 90vw;
-	}
+  .info-wrap {
+    max-width: 90vw;
+  }
 
-	.award-wrap {
-		height: auto;
-		margin: .5rem 0;
-	}
+  .award-wrap {
+    height: auto;
+    margin: 0.5rem 0;
+  }
 }
