@@ -297,6 +297,12 @@
           "moreInfo": {
             "episodes": ["THE WORKHOUSE", "FRANCIS DRAKE", "ISAAC NEWTON"]
           }
+        },
+        {
+          "key": "radaShort",
+          "title": "RADA Short Film",
+          "subtitle": "Director",
+          "blurb": "Scheduled for January 2019."
         }
       ]
     },
@@ -353,6 +359,20 @@
           "location": "Rehearsed Reading, The Club Theatre RADA, 2018",
           "text":
             "A complex re-interpretation of <i>Prometheus Bound</i>, set in a crisis-stricken Balkan country."
+        },
+        {
+          "title": "THE CAPTIVE HEART",
+          "role": "Writer / Director",
+          "location": "Rehearsed Reading, Studio Theatre RADA, 2018",
+          "text":
+            "Film script adapted for public performance (see 'Feature Films' below)."
+        },
+        {
+          "title": "AFTER THE PEACE",
+          "role": "Director",
+          "location": "The Criterion Theatre, scheduled for November 2018",
+          "text":
+            "A new work by Clare Bayley, part of the Criterion New Writing Program."
         }
       ]
     },
@@ -389,7 +409,7 @@
           "title": "THE CAPTIVE HEART",
           "role": "Writer",
           "text":
-            "Romantic adventure based on a true story. THE CAPTIVE HEART received a 'Consider' in the PAGE International Screenwriting Awards 2016, and has been used by RADA in their character development workshops. Michael re-wrote the script at the PageCraft 2017 Screenwriting Retreat in Italy, and the new version is being given a rehearsed reading at RADA in August.",
+            "Romantic adventure based on a true story. THE CAPTIVE HEART has been developed with the Academy Dramaturg at RADA and used by in their Character Development workshops. Michael re-wrote the script at the <i>PageCraft 2017 Screenwriting Retreat</i> in Italy, and the new version recently had a very successful rehearsed reading at RADA.",
           "awards": [
             {
               "award": "Quarter-Finalist",
@@ -594,7 +614,7 @@
           "vimeoId": "167788865",
           "overlayInfo": "Excerpts",
           "title": "Jason, Jim & Me",
-          "subtitle": "Documentary",
+          "subtitle": "Drama Documentary",
           "blurb":
             "The life, loves, and mysterious death of pioneer aviatrix Amy Johnson.",
           "moreInfo": {
@@ -685,7 +705,7 @@
           "vimeoId": "167772506",
           "overlayInfo": "Excerpts",
           "title": "A Dinosaur In Hollywood",
-          "subtitle": "Comedy Documentary",
+          "subtitle": "Drama Documentary",
           "blurb": "A biopic of Tyrannosaurus Rex. <br>Lots of CGI.",
           "moreInfo": {
             "distribution": {
